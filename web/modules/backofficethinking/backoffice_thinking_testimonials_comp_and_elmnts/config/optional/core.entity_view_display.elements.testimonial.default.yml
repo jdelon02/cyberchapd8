@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.testimonial
+    - field.field.elements.testimonial.field_description
+    - field.field.elements.testimonial.field_testimonial_author
+  module:
+    - text
+id: elements.testimonial.default
+targetEntityType: elements
+bundle: testimonial
+mode: default
+content:
+  field_description:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_testimonial_author:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  changed: true
+  created: true
+  title: true
+  uid: true

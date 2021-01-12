@@ -1,0 +1,21 @@
+{
+    "name": "drupal/date_group",
+    "description": "Provide a field formatter to group start and end dates.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Sorin Dediu (sdstyles)",
+            "homepage": "https://www.drupal.org/u/sdstyles",
+            "role": "Maintainer"
+        }
+    ],
+    "homepage": "https://drupal.org/project/date_group",
+    "support": {
+        "issues": "https://drupal.org/project/issues/date_group",
+        "source": "https://git.drupalcode.org/project/date_group"
+    },
+    "require": {
+        "drupal/core": "^8 || ^9"
+    }
+}

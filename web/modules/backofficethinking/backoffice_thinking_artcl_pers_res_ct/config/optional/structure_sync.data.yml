@@ -1,0 +1,331 @@
+taxonomies:
+  event_type:
+    -
+      vid: event_type
+      tid: '24'
+      langcode: en
+      name: 'In Person'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1d0c0ff8-0e57-4cac-82a1-8bf442a00c71
+    -
+      vid: event_type
+      tid: '23'
+      langcode: en
+      name: Webinar
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b5596615-a1b4-4e7a-87ec-919948893552
+  layout_options:
+    -
+      vid: layout_options
+      tid: '14'
+      langcode: en
+      name: Centered
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '0'
+      uuid: 3e5f4c74-41f8-40ea-b315-514314a85752
+    -
+      vid: layout_options
+      tid: '13'
+      langcode: en
+      name: 'Image Left'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: 93421833-13e6-48a0-be10-94fd0b4439e0
+    -
+      vid: layout_options
+      tid: '12'
+      langcode: en
+      name: 'Image Right'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 06e48a5c-706f-4add-af4a-915a8edff194
+  layout_width:
+    -
+      vid: layout_width
+      tid: '7'
+      langcode: en
+      name: Full
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '0'
+      uuid: 9d0df38b-c03e-428b-a06e-3b6db20015fd
+    -
+      vid: layout_width
+      tid: '5'
+      langcode: en
+      name: Narrow
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: cb42e7df-d81e-458a-b7fe-71833bb65ed3
+    -
+      vid: layout_width
+      tid: '6'
+      langcode: en
+      name: Wide
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: cbe76c71-4017-4c48-a59c-5ef7013e3619
+  layout_width_text:
+    -
+      vid: layout_width_text
+      tid: '35'
+      langcode: en
+      name: Narrow
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: feb12a9d-427b-45f4-ae7b-728371895cf6
+    -
+      vid: layout_width_text
+      tid: '36'
+      langcode: en
+      name: Wide
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2a53eddb-02a7-4ffe-ad80-cb3808acc54e
+  news_type:
+    -
+      vid: news_type
+      tid: '20'
+      langcode: en
+      name: General
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 512b8f84-5ca4-44db-99b6-df96789887ac
+    -
+      vid: news_type
+      tid: '22'
+      langcode: en
+      name: 'In The News'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 359c00af-1ea0-4433-ae25-3a666cf0fccc
+    -
+      vid: news_type
+      tid: '21'
+      langcode: en
+      name: 'Press Release'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fb57198e-d996-448e-b5aa-2acc9d286a52
+  person_type:
+    -
+      vid: person_type
+      tid: '18'
+      langcode: en
+      name: Board
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e3346ba8-650f-410f-bf17-02221b249295
+    -
+      vid: person_type
+      tid: '17'
+      langcode: en
+      name: Staff
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 6968ca40-9e1e-4677-be00-35c177c769f2
+    -
+      vid: person_type
+      tid: '19'
+      langcode: en
+      name: Volunteer
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 44af296e-f49d-488f-a72b-21cdddc2aeed
+  resource_type:
+    -
+      vid: resource_type
+      tid: '33'
+      langcode: en
+      name: Tips
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 71a07b5d-c9e8-47ff-985c-687d645ba454
+    -
+      vid: resource_type
+      tid: '34'
+      langcode: en
+      name: Tools
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b3f913a3-5c7a-4885-9cc2-b2436990915a
+  tags:
+    -
+      vid: tags
+      tid: '31'
+      langcode: en
+      name: (25)
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: efea49f2-3d18-4cc4-b434-b940bacea19b
+    -
+      vid: tags
+      tid: '32'
+      langcode: en
+      name: (30)
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7442c3f4-17d2-42c2-966c-97e3616108bd
+    -
+      vid: tags
+      tid: '27'
+      langcode: zxx
+      name: fronopiprophebedraworelobruprenibihumabroweguvastalostuswechovufrobucuueuislugiteclifrislabroslegugiguuucrewaphutredrustushekijijeneloclab
+      description__value: "Abluo diam ut. Abigo antehabeo quia ulciscor uxor. Dolor metuo nunc validus. Ad enim gravis ibidem lenis nisl qui tum vel. Abbas accumsan blandit capto cui distineo facilisis iusto nisl volutpat. Capto defui facilisi wisi. Dignissim immitto paulatim pecus.\n\nAbigo amet aptent elit esca fere pneum. Consequat dolore eros in laoreet qui sagaciter typicus utinam. Dignissim esca exputo lenis pecus premo ulciscor ullamcorper vulpes. Gilvus in pagus. Decet importunus patria. Gilvus te ut vicis. Appellatio bene commoveo esse humo ibidem jugis mos proprius zelus.\n\nAbdo defui diam dignissim eros hendrerit iustum ut verto. Abdo acsi dolore neo os pagus quia suscipit ymo. Abdo bene ea letalis ludus premo quadrum tincidunt. Hendrerit ibidem sit vero volutpat.\n\nComis defui imputo ludus macto paratus refero typicus vereor. Antehabeo immitto nostrud quadrum quidem rusticus usitas vulpes. Antehabeo dignissim distineo proprius suscipit. Capto natu neque rusticus. Feugiat in inhibeo modo. Autem comis defui dignissim distineo feugiat nobis occuro olim oppeto.\n\nAntehabeo cui dolor immitto lenis singularis. Abdo consectetuer distineo dolor dolus hendrerit qui wisi. Comis commoveo iaceo importunus luctus neque occuro quae scisco te. Comis dolor et interdico lenis ludus premo singularis. Dignissim gilvus immitto. Saepius te veniam vulpes. Amet dignissim imputo neque nimis pneum refoveo sit.\n\nAbluo caecus hos loquor premo quibus suscipere utrum. Causa enim incassum nisl paratus typicus vereor voco. Duis et importunus incassum inhibeo minim quibus uxor. Nisl praemitto saluto sino.\n\nAppellatio bene brevitas duis iaceo iustum populus proprius refero tincidunt. Accumsan luctus pagus roto uxor veniam voco vulputate. Cogo fere genitus hendrerit loquor modo quis roto similis vulputate. Diam ille letalis nimis pneum tego volutpat zelus. At augue brevitas capto cui immitto nunc pertineo plaga validus. Abigo commoveo consequat eros iriure oppeto praemitto quadrum quis.\n\nAbico bene conventio eligo letalis lucidus ludus torqueo. Gemino melior pertineo pneum utrum. Genitus sit vulputate. Acsi hendrerit ludus nulla praesent quidne saluto sit. Iriure jus sed. Caecus immitto mos occuro paratus suscipit vereor. Damnum exputo luctus macto nostrud quidem validus veniam. Abigo exputo imputo loquor. Iriure pneum praemitto quia tego volutpat ymo. Acsi ea esca eum mos nimis occuro os persto quae.\n\nLudus qui refoveo roto utinam. Illum laoreet patria voco. Abluo antehabeo autem capto cogo imputo jumentum letalis lucidus. Bene comis duis ludus minim uxor vulputate. Abluo ad blandit ille pecus populus tamen zelus. Ex loquor neque nulla obruo praesent quidem voco ymo.\n\nIncassum inhibeo pala paratus validus voco zelus. Abbas aptent ideo oppeto os velit zelus. Abdo camur hendrerit ibidem melior modo oppeto sit usitas. Enim exerci nostrud vero. Facilisi fere illum. Suscipere tincidunt velit. Consequat hendrerit lenis nulla oppeto. Dolor enim melior. Acsi caecus causa consectetuer decet dignissim facilisis iusto tamen vero.\n\nLuptatum mos neo quadrum quibus vel vereor zelus. Brevitas dolor illum melior nunc patria volutpat. At camur hendrerit. Ad appellatio aptent cogo haero ibidem jus quidem usitas. Abbas eum turpis valde vulpes. Commodo ratis uxor volutpat wisi zelus. Aptent eu exerci illum metuo quae refero refoveo virtus vulputate.\n\nAcsi cogo et qui. Fere natu refoveo utinam validus verto. Capto causa commoveo hendrerit luctus pagus quadrum sed singularis sudo. Abluo acsi diam nostrud plaga si validus. Iusto nisl os similis.\n\n"
+      description__format: plain_text
+      weight: '284'
+      parent: '0'
+      uuid: b4ca4079-9855-42c4-9e0c-0e7c80726498
+    -
+      vid: tags
+      tid: '26'
+      langcode: en
+      name: null
+      description__value: null
+      description__format: null
+      weight: null
+      parent: '25'
+      uuid: d2b87d2c-c8bf-4677-bf6d-c66677e51539
+    -
+      vid: tags
+      tid: '25'
+      langcode: und
+      name: null
+      description__value: null
+      description__format: null
+      weight: null
+      parent: '0'
+      uuid: 6e0d29d1-624b-4e40-ad19-728d8462e915
+    -
+      vid: tags
+      tid: '28'
+      langcode: zxx
+      name: null
+      description__value: null
+      description__format: null
+      weight: null
+      parent: '27'
+      uuid: dec8d00c-6d9d-4cb0-8106-29505a266b08
+    -
+      vid: tags
+      tid: '30'
+      langcode: zxx
+      name: null
+      description__value: null
+      description__format: null
+      weight: null
+      parent: '29'
+      uuid: 14990775-7479-45bf-9aa1-110d41f1f17a
+    -
+      vid: tags
+      tid: '29'
+      langcode: und
+      name: tigitimiuujewraslovuprubruregophupracocletrikudrumoporivehocebropravudocluwrebuprewecicleprulaswanojuuiswedricrakulimavosestosloratrodopipugabrufrifruthajophomepuswecravaswitrustauuwacreuoclicricuuofropecheswethaprisoslusasakobocerubrosohibrasheme
+      description__value: "Pertineo sino verto. Os paratus ullamcorper. Blandit gemino nulla valetudo vel veniam vulpes. At olim probo refero saepius. Abbas duis genitus inhibeo mos refero roto similis tincidunt utinam. Aptent oppeto pecus refoveo validus. Consectetuer distineo eros. Diam quae ratis saepius.\n\nAbluo interdico ut utinam. Dolore macto premo refoveo. Esse exerci imputo mos quidne sit tincidunt valde vulputate. Abbas pecus tamen. Cui macto suscipit venio. Commoveo diam dignissim gilvus jumentum patria quae quidem valetudo vel.\n\nAliquam duis ideo nulla pagus plaga utrum vero ymo. Quadrum saluto valde velit venio. Appellatio aptent pala roto. Capto exputo iusto usitas vindico. Bene exputo haero inhibeo iusto iustum patria persto usitas uxor. Defui exerci in. Augue conventio iustum luptatum nunc olim pneum turpis vero voco. Ea lenis natu qui torqueo vulpes. Aptent feugiat meus odio sudo suscipere.\n\nDolore gilvus ille in nunc paratus vicis. Euismod praesent saluto sed tum usitas veniam venio virtus. Abico augue causa decet defui jus ulciscor. Neo suscipere valetudo. Ad autem pagus uxor. Inhibeo iriure laoreet luptatum nunc olim tego usitas utinam. Abdo accumsan at capto dolor eum usitas.\n\nAbbas et euismod facilisi facilisis gilvus ideo ille inhibeo refero. Abdo brevitas cogo gravis imputo loquor paratus volutpat. Consectetuer enim olim quae sit vindico. Capto humo paratus persto. Lucidus neque saluto sit vulpes. Illum nulla quidne. Cogo decet nibh saluto sino vel. Adipiscing et ibidem imputo laoreet utinam. Adipiscing autem eu ex exerci quibus scisco suscipere validus.\n\nAccumsan diam molior proprius quis sudo. Capto causa sed singularis. Abigo facilisi facilisis humo ideo utinam. Gilvus importunus letalis os probo tum ullamcorper venio.\n\nFere huic jus melior ymo. Camur conventio premo quidem saepius sudo. Diam eligo exerci exputo suscipere utinam vicis. Laoreet luctus secundum usitas ut. Amet causa duis euismod iaceo nostrud turpis.\n\nAbbas nimis nunc velit verto. Iaceo ibidem lobortis modo oppeto quidem sed tego virtus. Aliquip aptent dolus jus olim turpis typicus. Ad enim ille iriure nibh nostrud pecus quidne tego. Magna nunc paratus. Cogo distineo gemino hos secundum suscipit torqueo. Antehabeo comis conventio interdico iriure. Appellatio hendrerit hos illum ratis. Abbas appellatio augue dignissim eum premo vicis.\n\nAbbas adipiscing aptent at odio paulatim refoveo. Blandit facilisis ideo in iriure iusto luptatum tation ut. Augue defui exputo obruo venio. Aliquip augue eum iustum nunc odio persto populus probo. Appellatio consectetuer jus meus quia saepius. Diam gravis laoreet. Amet at dolus neque patria plaga refero.\n\nAdipiscing facilisis huic pagus roto vulputate. Dolor ea suscipere. Commodo eu facilisi ille in melior nisl secundum sit usitas. Autem ex nunc paratus valde. Autem decet genitus interdico loquor luctus pecus vel velit.\n\nAppellatio eligo eu jugis secundum volutpat. Quadrum ratis sino sit. Esse iriure nunc odio pagus premo quia sed tego ullamcorper. Hendrerit validus vicis.\n\nAmet exputo macto natu neo refoveo roto te. Acsi molior nulla sudo. Eligo patria quadrum saluto suscipere valde vel. Augue huic iaceo nimis oppeto vulpes. Comis dolus nibh os pertineo plaga quidne wisi. At dolore et mauris os premo. Adipiscing sudo ulciscor.\n\n"
+      description__format: plain_text
+      weight: '803'
+      parent: '0'
+      uuid: d8ed08d3-5f13-4e5e-98a8-c0564837882c
+  theme_colors:
+    -
+      vid: theme_colors
+      tid: '3'
+      langcode: en
+      name: Black
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 58368b5e-66bc-446c-a074-4fa3ca9a5ac2
+    -
+      vid: theme_colors
+      tid: '2'
+      langcode: en
+      name: Blue
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ed85343b-fb56-4a1d-8baf-bdec9d3d3730
+    -
+      vid: theme_colors
+      tid: '1'
+      langcode: en
+      name: 'Light Gray'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e6d6db0a-d88b-4123-893d-43747d171d24
+    -
+      vid: theme_colors
+      tid: '4'
+      langcode: en
+      name: White
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: cbe9c251-0657-4aa0-91fa-3b6a90493cc6
+  title_display_options:
+    -
+      vid: title_display_options
+      tid: '16'
+      langcode: en
+      name: 'Basic Page Title'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 04294779-34d0-4b6f-b59e-34c31b5bd7d1
+    -
+      vid: title_display_options
+      tid: '15'
+      langcode: en
+      name: 'No Page Title'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 43590d96-0374-465d-af21-95bb70dc7794

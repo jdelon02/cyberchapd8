@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - backoffice_thinking_alert_bar
+    - text
+id: alert_bar_message.field_alert_message
+field_name: field_alert_message
+entity_type: alert_bar_message
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,13 @@
+{
+    "name": "backoffice_thinking_alert_bar",
+    "type": "drupal-module",
+    "description": "BackOffice Thinking Standard Alert Bar Structure",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/backoffice_thinking_alert_bar",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/backoffice_thinking_alert_bar",
+        "source": "http://cgit.drupalcode.org/backoffice_thinking_alert_bar",
+    },
+}

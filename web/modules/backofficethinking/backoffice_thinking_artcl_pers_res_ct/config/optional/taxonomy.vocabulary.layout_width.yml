@@ -1,0 +1,8 @@
+uuid: 63eebbca-1257-4121-add5-b39dd76d774b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Layout Width'
+vid: layout_width
+description: ''
+weight: 0

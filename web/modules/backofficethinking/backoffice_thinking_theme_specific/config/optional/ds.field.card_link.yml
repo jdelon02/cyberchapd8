@@ -1,0 +1,9 @@
+id: card_link
+label: 'Card Link'
+ui_limit: 'link_card_item|*'
+properties:
+  field_id: elements.link_card_item.field_call_to_action
+type: display_field_copy
+type_label: 'Copy field'
+entities:
+  elements: elements

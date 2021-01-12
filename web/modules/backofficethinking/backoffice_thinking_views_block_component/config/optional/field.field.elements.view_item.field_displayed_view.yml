@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.view_item
+    - field.storage.elements.field_displayed_view
+  module:
+    - viewsreference
+id: elements.view_item.field_displayed_view
+field_name: field_displayed_view
+entity_type: elements
+bundle: view_item
+label: 'Displayed View'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    page: 0
+    feed: 0
+    entity_browser: 0
+  preselect_views:
+    listings: listings
+    news: news
+    person_listings: person_listings
+    basic_page_with_filters: 0
+    block_content: 0
+    book_nav: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    files: 0
+    frontpage: 0
+    media: 0
+    media_library: 0
+    paragraphs_library: 0
+    paragraphs_library_browser: 0
+    person_listing: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    who_s_new: 0
+    who_s_online: 0
+field_type: viewsreference

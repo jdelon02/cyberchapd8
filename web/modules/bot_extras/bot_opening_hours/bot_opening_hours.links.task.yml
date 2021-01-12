@@ -1,0 +1,21 @@
+# BOT Opening Hours Exception routing definition
+bot_opening_hours_exc.settings_tab:
+  route_name: bot_opening_hours_exc.settings
+  title: 'Settings'
+  base_route: bot_opening_hours_exc.settings
+
+entity.bot_opening_hours_exc.canonical:
+  route_name: entity.bot_opening_hours_exc.canonical
+  base_route: entity.bot_opening_hours_exc.canonical
+  title: 'View'
+
+entity.bot_opening_hours_exc.edit_form:
+  route_name: entity.bot_opening_hours_exc.edit_form
+  base_route: entity.bot_opening_hours_exc.canonical
+  title: 'Edit'
+
+entity.bot_opening_hours_exc.delete_form:
+  route_name:  entity.bot_opening_hours_exc.delete_form
+  base_route:  entity.bot_opening_hours_exc.canonical
+  title: Delete
+  weight: 10

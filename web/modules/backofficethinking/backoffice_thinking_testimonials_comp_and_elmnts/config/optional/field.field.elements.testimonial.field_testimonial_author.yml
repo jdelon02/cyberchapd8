@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.testimonial
+    - field.storage.elements.field_testimonial_author
+  module:
+    - text
+id: elements.testimonial.field_testimonial_author
+field_name: field_testimonial_author
+entity_type: elements
+bundle: testimonial
+label: 'Testimonial Author'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

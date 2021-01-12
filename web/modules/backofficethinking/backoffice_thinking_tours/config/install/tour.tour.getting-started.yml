@@ -1,0 +1,111 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - tour_getting_started
+id: getting-started
+label: 'User Page After Login'
+module: tour_getting_started
+routes:
+  -
+    route_name: entity.user.canonical
+tips:
+  admin-menu:
+    id: admin-menu
+    plugin: text
+    label: 'Admin Menu'
+    weight: -100
+    attributes:
+      data-id: toolbar-item-administration
+    body: 'Do you see the admin menu? Click the Manage toggle button to display the admin menu if it does not already display for you. Then restart this tour by clicking the blue tour button at the top right of this screen.'
+    location: top
+  manage-your-content:
+    id: manage-your-content
+    plugin: text
+    label: 'Manage your content'
+    weight: -99
+    attributes:
+      data-class: toolbar-icon-system-admin-content
+    body: 'See all your existing content by clicking the "Content" menu item.'
+    location: bottom
+  add-a-new-page:
+    id: add-a-new-page
+    plugin: text
+    label: 'Add a new page'
+    weight: -98
+    attributes:
+      data-class: toolbar-icon-system-admin-content
+    body: 'To add a new page go to Content > Add Content and choose the type of content you would like to create.'
+    location: bottom
+  edit-menu-items:
+    id: edit-menu-items
+    plugin: text
+    label: 'Structure Menu'
+    weight: -97
+    attributes:
+      data-class: 'toolbar-menu > li > .toolbar-icon-system-admin-structure'
+    body: 'To edit Menus, Taxonomies, and Webforms, hover over the Structure menu and choose an item to edit. '
+    location: bottom
+  appearance-menu:
+    id: appearance-menu
+    plugin: text
+    label: 'Appearance Menu'
+    weight: -96
+    attributes:
+      data-class: toolbar-icon-system-themes-page
+    body: 'Appearance is where your theme is turned on. Exercise extreme caution. You will not need to edit anything here.'
+    location: bottom
+  extend-menu:
+    id: extend-menu
+    plugin: text
+    label: 'Extend Menu'
+    weight: -95
+    attributes:
+      data-class: toolbar-icon-system-modules-list
+    body: 'This is where modules are installed and activated. Do not modify, uninstall, or update any modules as this could cause sitewide issues to occur.'
+    location: bottom
+  configuration:
+    id: configuration
+    plugin: text
+    label: 'Configuration Menu'
+    weight: -94
+    attributes:
+      data-class: toolbar-icon-system-admin-config
+    body: 'Exercise extreme caution within the configuration menu. The majority of content administrators will NOT need to modify anything here. Contact your web master with any questions.'
+    location: bottom
+  manage-users:
+    id: manage-users
+    plugin: text
+    label: 'Manage Users'
+    weight: -93
+    attributes:
+      data-class: toolbar-icon-entity-user-collection
+    body: 'Add new users and manage existing users under the People menu item. You can also assign different roles to different users. For example, Administrators vs Content Editors.'
+    location: bottom
+  reports-menu:
+    id: reports-menu
+    plugin: text
+    label: 'Reports Menu'
+    weight: -92
+    attributes:
+      data-class: 'toolbar-menu > li > .toolbar-icon-system-admin-reports'
+    body: 'Reports provide information about your website including available updates, log messages, and status reports such as your Drupal version, web server, php version, and any errors or warnings.'
+    location: bottom
+  help-menu:
+    id: help-menu
+    plugin: text
+    label: 'Help Menu'
+    weight: -91
+    attributes:
+      data-class: toolbar-icon-help-main
+    body: 'Typically used by developers and web masters, the help menu provides resource links to Drupal documentation and definitions.'
+    location: bottom
+  edit-a-page:
+    id: edit-a-page
+    plugin: text
+    label: 'Edit a page'
+    weight: -90
+    attributes:
+      data-class: 'tabs--primary a[href*="/edit"]'
+    body: 'When you''re logged in you can edit most pages by clicking the "edit" link attached to the bottom of your screen.'
+    location: top

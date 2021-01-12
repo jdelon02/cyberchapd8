@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.event_instance_entity.event_instance_entity.field_date_and_time
+    - field.field.event_instance_entity.event_instance_entity.field_event_series
+  module:
+    - bot_event_instance_entities
+    - datetime_range
+id: event_instance_entity.event_instance_entity.default
+targetEntityType: event_instance_entity
+bundle: event_instance_entity
+mode: default
+content:
+  field_date_and_time:
+    weight: 1
+    label: hidden
+    settings:
+      separator: '-'
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_event_series:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  name: true
+  user_id: true

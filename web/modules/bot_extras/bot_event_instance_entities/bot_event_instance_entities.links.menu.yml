@@ -1,0 +1,14 @@
+
+# Event Instance menu items definition
+entity.event_instance_entity.collection:
+  title: 'Event Instance list'
+  route_name: entity.event_instance_entity.collection
+  description: 'List Event Instance entities'
+  parent: system.admin_structure
+  weight: 100
+
+event_instance_entity.admin.structure.settings:
+  title: 'Event Instance settings'
+  description: 'Configure Event Instance entities'
+  route_name: event_instance_entity.settings
+  parent: system.admin_structure

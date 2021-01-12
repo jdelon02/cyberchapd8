@@ -1,0 +1,21 @@
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_remote_image_url
+    - media.type.remote_image
+  module:
+    - media_entity_remote_image
+id: media.remote_image.field_media_remote_image_url
+field_name: field_media_remote_image_url
+entity_type: media
+bundle: remote_image
+label: 'Media Remote Image URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: '16'
+  title: 1
+field_type: remote_image_url

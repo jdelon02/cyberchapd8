@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.link_card
+    - field.storage.elements.field_card_layout
+  module:
+    - entity_reference_display
+id: elements.link_card.field_card_layout
+field_name: field_card_layout
+entity_type: elements
+bundle: link_card
+label: 'Card Layout'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  exclude:
+    card_background_image: card_background_image
+    card_stacked: card_stacked
+  negate: 1
+field_type: entity_reference_display

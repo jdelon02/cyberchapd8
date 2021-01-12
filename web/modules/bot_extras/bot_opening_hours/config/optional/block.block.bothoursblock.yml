@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - bot_opening_hours
+  theme:
+    - bot_custom
+id: bothoursblock
+theme: bot_custom
+region: alert_message
+weight: 0
+provider: null
+plugin: bot_hours_block
+settings:
+  id: bot_hours_block
+  label: 'BOT Hours Block'
+  provider: bot_opening_hours
+  label_display: visible
+  layout: sidebar
+visibility: {  }

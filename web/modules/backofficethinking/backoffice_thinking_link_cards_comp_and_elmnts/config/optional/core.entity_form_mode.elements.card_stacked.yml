@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: elements.card_stacked
+label: 'Card Stacked'
+targetEntityType: elements
+cache: true

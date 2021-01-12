@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_layout
+    - paragraphs.paragraphs_type.wysiwyg_layouts
+  module:
+    - entity_reference_display
+id: paragraph.wysiwyg_layouts.field_layout
+field_name: field_layout
+entity_type: paragraph
+bundle: wysiwyg_layouts
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: image_50_right
+default_value_callback: ''
+settings:
+  exclude:
+    image_25_left: image_25_left
+    image_25_right: image_25_right
+    image_50_left: image_50_left
+    image_50_right: image_50_right
+  negate: 1
+field_type: entity_reference_display

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.bot_opening_hours_exc.field_date
+  module:
+    - bot_opening_hours
+    - datetime
+id: bot_opening_hours_exc.bot_opening_hours_exc.field_date
+field_name: field_date
+entity_type: bot_opening_hours_exc
+bundle: bot_opening_hours_exc
+label: Date
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

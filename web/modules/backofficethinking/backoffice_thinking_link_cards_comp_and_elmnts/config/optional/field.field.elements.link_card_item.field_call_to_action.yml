@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.link_card_item
+    - field.storage.elements.field_call_to_action
+  module:
+    - link
+id: elements.link_card_item.field_call_to_action
+field_name: field_call_to_action
+entity_type: elements
+bundle: link_card_item
+label: 'Call to Action'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

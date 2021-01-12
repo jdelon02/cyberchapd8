@@ -1,0 +1,76 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.view_item
+    - field.field.elements.view_item.field_call_to_action
+    - field.field.elements.view_item.field_displayed_view
+    - field.field.elements.view_item.field_headline_intro
+    - field.field.elements.view_item.field_layout_width
+  module:
+    - button_link
+    - ds
+    - entity_class_formatter
+    - text
+    - viewsreference
+id: elements.view_item.default
+targetEntityType: elements
+bundle: view_item
+mode: default
+content:
+  field_call_to_action:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+      link_text: ''
+      btn_type: btn-default
+      btn_size: ''
+      btn_block: null
+      icon_class: ''
+      disable_btn_role: 0
+    third_party_settings: {  }
+    type: button_link
+    region: content
+  field_displayed_view:
+    weight: 1
+    label: visually_hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+  field_headline_intro:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_layout_width:
+    weight: 2
+    label: hidden
+    settings:
+      prefix: width-
+      suffix: ''
+      attr: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_class_formatter
+    region: content
+hidden:
+  changed: true
+  created: true
+  title: true
+  uid: true

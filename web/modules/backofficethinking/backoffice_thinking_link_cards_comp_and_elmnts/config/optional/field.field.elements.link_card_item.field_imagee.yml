@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.link_card_item
+    - field.storage.elements.field_imagee
+    - media.type.image
+id: elements.link_card_item.field_imagee
+field_name: field_imagee
+entity_type: elements
+bundle: link_card_item
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

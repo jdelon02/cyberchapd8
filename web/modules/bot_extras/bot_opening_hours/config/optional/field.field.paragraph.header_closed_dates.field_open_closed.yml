@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_open_closed
+    - paragraphs.paragraphs_type.header_closed_dates
+id: paragraph.header_closed_dates.field_open_closed
+field_name: field_open_closed
+entity_type: paragraph
+bundle: header_closed_dates
+label: Open/Closed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

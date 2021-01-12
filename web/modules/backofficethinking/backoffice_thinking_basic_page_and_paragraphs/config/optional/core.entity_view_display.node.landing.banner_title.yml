@@ -1,0 +1,178 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.banner_title
+    - field.field.node.landing.field_body
+    - field.field.node.landing.field_components
+    - field.field.node.landing.field_meta_description
+    - field.field.node.landing.field_meta_tags
+    - field.field.node.landing.field_page_options
+    - field.field.node.landing.field_title_banner_button
+    - field.field.node.landing.field_title_banner_headline
+    - field.field.node.landing.field_title_banner_media
+    - node.type.landing
+  module:
+    - button_link
+    - ds
+    - field_group
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - group_title_banner
+        - field_title_banner_media
+        - field_components
+        - field_title_banner_headline
+        - group_title_banner_content
+        - field_title_banner_button
+  field_group:
+    group_title_banner:
+      children:
+        - field_title_banner_media
+        - group_title_banner_content
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      region: main
+      format_settings:
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: title-banner-container
+      label: 'Title Banner'
+    group_title_banner_content:
+      children:
+        - field_title_banner_headline
+        - field_title_banner_button
+      parent_name: group_title_banner
+      weight: 3
+      format_type: html_element
+      region: main
+      format_settings:
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: title-banner-content
+      label: 'Title Banner Content'
+id: node.landing.banner_title
+targetEntityType: node
+bundle: landing
+mode: banner_title
+content:
+  field_components:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: main
+  field_title_banner_button:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+      link_text: ''
+      btn_type: btn-default
+      btn_size: ''
+      btn_block: null
+      icon_class: ''
+      disable_btn_role: 0
+    third_party_settings: {  }
+    type: button_link
+    region: main
+  field_title_banner_headline:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: h1
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: string
+    region: main
+  field_title_banner_media:
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: widescreen_16_9
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+    region: main
+hidden:
+  field_body: true
+  field_meta_description: true
+  field_meta_tags: true
+  field_page_options: true
+  links: true

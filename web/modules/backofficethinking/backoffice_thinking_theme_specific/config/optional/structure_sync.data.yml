@@ -1,0 +1,517 @@
+menus:
+  -
+    menu_name: footer-menu---work
+    title: Work
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: 846074aa-74bf-49f0-97fa-2c48141bdee2
+  -
+    menu_name: footer-menu---work
+    title: Portfolio
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 1512b803-9003-454b-9685-6789f7617a61
+  -
+    menu_name: footer-menu---work
+    title: 'Service Offerings'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: en
+    uuid: 1f4515d8-be04-4f14-9ce0-ba6e1496dae8
+  -
+    menu_name: footer-menu---work
+    title: 'Free Health Report'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: a48b486a-b991-4985-a1e4-af6884a4d296
+  -
+    menu_name: footer-menu---work
+    title: Support
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: en
+    uuid: 15f8a07e-517b-485c-9652-5b2adfcb588c
+  -
+    menu_name: footer-menu---resources
+    title: Resources
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: 49041b9f-077c-441d-874f-261cf5c7afd1
+  -
+    menu_name: footer-menu---resources
+    title: 'Search Resources'
+    parent: null
+    uri: 'internal:/resources'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: en
+    uuid: 02cb32be-62b7-4587-9cb8-cd0859a0d05d
+  -
+    menu_name: footer-menu---resources
+    title: 'Latest News'
+    parent: null
+    uri: 'internal:/news'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 1b58257f-a996-4055-aab1-a8813e40266d
+  -
+    menu_name: footer-menu---resources
+    title: 'From the Blog'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 6e8323fc-223d-4c22-951a-27da1cf4f8e9
+  -
+    menu_name: footer-menu---resources
+    title: 'Survival Tips'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: en
+    uuid: 8ecfce4a-2d28-49e6-9343-8a9374a78ec0
+  -
+    menu_name: footer-menu---about
+    title: About
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: b55eaa7e-9488-4daa-9b39-ae25093eb378
+  -
+    menu_name: footer-menu---about
+    title: 'Who We Are'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 13865259-843f-4b0d-8141-8683cbe3f5a9
+  -
+    menu_name: footer-menu---about
+    title: Team
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 2706ae35-391f-4ffc-bc4c-e5dfb937bad6
+  -
+    menu_name: footer-menu---about
+    title: Conferences
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 0ffa0254-88fb-4c92-b2c7-0354865e251a
+  -
+    menu_name: footer-menu---about
+    title: Careers
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: e7b15560-fdb4-44ed-aee1-c2acbaae4fa4
+  -
+    menu_name: account
+    title: Join
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '0'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 70ceb187-b832-44b1-8470-d7b869a511ab
+  -
+    menu_name: main
+    title: Basic
+    parent: null
+    uri: 'entity:node/1'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: 4499609d-e762-438a-8f64-de275bf031a2
+  -
+    menu_name: main
+    title: About
+    parent: null
+    uri: 'entity:node/23'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: 533d4a80-5aa7-452c-a5b7-7b32a7c0878c
+  -
+    menu_name: main
+    title: Events
+    parent: null
+    uri: 'entity:node/21'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: en
+    uuid: c2aebfb4-42bb-447f-b8bb-0120bae58147
+  -
+    menu_name: main
+    title: News
+    parent: null
+    uri: 'entity:node/20'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: en
+    uuid: 436b4bfb-f185-4b08-a37d-63b942908627
+  -
+    menu_name: main
+    title: Resources
+    parent: null
+    uri: 'entity:node/22'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: en
+    uuid: c3956ee3-8e59-46c4-a5f0-89e461f1b3c2
+  -
+    menu_name: main
+    title: 'Staff Listing'
+    parent: null
+    uri: 'internal:/staff-listing'
+    link_title: ''
+    description: null
+    enabled: '0'
+    expanded: '0'
+    weight: '-44'
+    langcode: en
+    uuid: 313e075b-facd-4664-8a99-7c8e081ba705
+  -
+    menu_name: main
+    title: 'Board Listing'
+    parent: null
+    uri: 'internal:/board-listing'
+    link_title: ''
+    description: null
+    enabled: '0'
+    expanded: '0'
+    weight: '-43'
+    langcode: en
+    uuid: 821a03d6-8929-46a1-ac5b-66b27047360a
+  -
+    menu_name: main
+    title: 'Mr Pickles'
+    parent: 'menu_link_content:533d4a80-5aa7-452c-a5b7-7b32a7c0878c'
+    uri: 'entity:node/17'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 7aa2a41b-07bf-4ee0-bcbb-117c68f685ea
+  -
+    menu_name: main
+    title: 'Jane Smithson'
+    parent: 'menu_link_content:533d4a80-5aa7-452c-a5b7-7b32a7c0878c'
+    uri: 'entity:node/19'
+    link_title: null
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 2c30f429-7f4b-4177-b494-2064b6ffcd45
+blocks:
+  -
+    info: 'Footer - Address'
+    langcode: en
+    uuid: 389efed2-27ff-4855-ae0f-87c40a532517
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p><strong>BackOffice Thinking<br />\r\nBase Theme</strong></p>\r\n\r\n<p>790 East Market Street<br />\r\nSuite 100<br />\r\nWest Chester, PA 19832<br />\r\nPh: 610.709.6570</p>\r\n"
+        summary: ''
+        format: basic_html
+  -
+    info: 'Search Container'
+    langcode: en
+    uuid: 6320a673-63bb-4590-9c94-780c5097f320
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p><a class=\"top\" href=\"#block-searchform\"><span>Search</span> </a></p>\r\n"
+        summary: ''
+        format: full_html
+taxonomies:
+  event_type:
+    -
+      vid: event_type
+      tid: '38'
+      langcode: en
+      name: 'In Person'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1d0c0ff8-0e57-4cac-82a1-8bf442a00c71
+    -
+      vid: event_type
+      tid: '37'
+      langcode: en
+      name: Webinar
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b5596615-a1b4-4e7a-87ec-919948893552
+  layout_options:
+    -
+      vid: layout_options
+      tid: '41'
+      langcode: en
+      name: Centered
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '0'
+      uuid: 3e5f4c74-41f8-40ea-b315-514314a85752
+    -
+      vid: layout_options
+      tid: '40'
+      langcode: en
+      name: 'Image Left'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: 93421833-13e6-48a0-be10-94fd0b4439e0
+    -
+      vid: layout_options
+      tid: '39'
+      langcode: en
+      name: 'Image Right'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 06e48a5c-706f-4add-af4a-915a8edff194
+  layout_width:
+    -
+      vid: layout_width
+      tid: '44'
+      langcode: en
+      name: Full
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '0'
+      uuid: 9d0df38b-c03e-428b-a06e-3b6db20015fd
+    -
+      vid: layout_width
+      tid: '42'
+      langcode: en
+      name: Narrow
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: cb42e7df-d81e-458a-b7fe-71833bb65ed3
+    -
+      vid: layout_width
+      tid: '43'
+      langcode: en
+      name: Wide
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: cbe76c71-4017-4c48-a59c-5ef7013e3619
+  layout_width_text:
+    -
+      vid: layout_width_text
+      tid: '45'
+      langcode: en
+      name: Narrow
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: feb12a9d-427b-45f4-ae7b-728371895cf6
+    -
+      vid: layout_width_text
+      tid: '46'
+      langcode: en
+      name: Wide
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2a53eddb-02a7-4ffe-ad80-cb3808acc54e
+  news_type:
+    -
+      vid: news_type
+      tid: '47'
+      langcode: en
+      name: General
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 512b8f84-5ca4-44db-99b6-df96789887ac
+    -
+      vid: news_type
+      tid: '49'
+      langcode: en
+      name: 'In The News'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 359c00af-1ea0-4433-ae25-3a666cf0fccc
+    -
+      vid: news_type
+      tid: '48'
+      langcode: en
+      name: 'Press Release'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: fb57198e-d996-448e-b5aa-2acc9d286a52
+  person_type:
+    -
+      vid: person_type
+      tid: '51'
+      langcode: en
+      name: Board
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e3346ba8-650f-410f-bf17-02221b249295
+    -
+      vid: person_type
+      tid: '50'
+      langcode: en
+      name: Staff
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 6968ca40-9e1e-4677-be00-35c177c769f2
+    -
+      vid: person_type
+      tid: '52'
+      langcode: en
+      name: Volunteer
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 44af296e-f49d-488f-a72b-21cdddc2aeed
+  resource_type:
+    -
+      vid: resource_type
+      tid: '53'
+      langcode: en
+      name: Tips
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 71a07b5d-c9e8-47ff-985c-687d645ba454
+    -
+      vid: resource_type
+      tid: '54'
+      langcode: en
+      name: Tools
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b3f913a3-5c7a-4885-9cc2-b2436990915a
+  tags: {  }
+  theme_colors: {  }
+  title_display_options: {  }

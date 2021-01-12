@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - 'Tour Home Landing Components'
+id: home-landing-components-tour
+label: 'Home Landing Components Tour'
+module: 'Tour Home Landing Components'
+routes:
+  -
+    route_name: view.front.page_front
+  -
+    route_name: view.frontpage.page_3
+  -
+    route_name: '<front>'
+tips:
+  welcome-:
+    id: welcome-
+    plugin: text
+    label: Welcome!
+    weight: -100
+    attributes: {  }
+    body: 'Welcome to the home page of your website! This page is set up as a landing page content type that uses drag-and-drop "Components" for displaying content on this page. '
+    location: top

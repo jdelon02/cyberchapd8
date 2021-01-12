@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: fp_widescreen_768x432
+label: 'FP Widescreen (768x432)'
+effects:
+  b81c335f-1b72-4dd2-bff9-91602a8a0038:
+    uuid: b81c335f-1b72-4dd2-bff9-91602a8a0038
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 768
+      height: 432
+      anchor: center-center

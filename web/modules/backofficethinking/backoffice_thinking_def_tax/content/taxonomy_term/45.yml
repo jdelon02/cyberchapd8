@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: feb12a9d-427b-45f4-ae7b-728371895cf6
+  bundle: layout_width_text
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Narrow
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

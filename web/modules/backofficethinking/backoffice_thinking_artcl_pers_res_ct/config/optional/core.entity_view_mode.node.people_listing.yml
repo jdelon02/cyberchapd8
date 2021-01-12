@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.people_listing
+label: 'People Listing'
+targetEntityType: node
+cache: true

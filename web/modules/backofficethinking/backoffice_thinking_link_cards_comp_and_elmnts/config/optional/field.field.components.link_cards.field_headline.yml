@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.link_cards
+    - field.storage.components.field_headline
+  module:
+    - text
+id: components.link_cards.field_headline
+field_name: field_headline
+entity_type: components
+bundle: link_cards
+label: Headline/Intro
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * @file
+ * Contains bot_opening_hours.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Cache\Cache;
+
+/**
+ * Implements hook_help().
+ */
+function bot_opening_hours_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bot_opening_hours module.
+    case 'help.page.bot_opening_hours':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides opening and closing hour exceptions.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function bot_opening_hours_form_alter(&$form, FormStateInterface &$form_state, $form_id) {
+	if (in_array($form_id, ['bot_opening_hours_exc_add_form', 'bot_opening_hours_exc_edit_form'])) {
+		$form['field_hours']['widget'][0]['from']['#states'] =
+		$form['field_hours']['widget'][0]['to']['#states'] = [
+			'required' => [
+		      'select[name="field_status"]' => ['value' => 'open']
+		    ]
+		  ];
+	}
+}
+
+/**
+ * Implements hook_theme().
+ */
+function bot_opening_hours_theme() {
+  return [
+    'bot_hours_block' => [
+      'variables' => [
+        'layout' => 'sidebar',
+        'today' => NULL,
+        'status' => NULL,
+        'time_open' => NULL,
+        'time_closed' => NULL,
+        'show_hours' => NULL,
+        'class_status' => NULL,
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}
+
+function bot_opening_hours_cron() {
+  Cache::invalidateTags(array('config:block.block.bothoursblock'));
+  Cache::invalidateTags(array('config:block.block.bothoursblock_2'));
+}

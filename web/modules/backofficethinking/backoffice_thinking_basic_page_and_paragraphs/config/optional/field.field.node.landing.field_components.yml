@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.callout
+    - eck.eck_type.components.link_cards
+    - eck.eck_type.components.simple_title_and_body
+    - eck.eck_type.components.slideshow
+    - eck.eck_type.components.testimonial
+    - eck.eck_type.components.view_block
+    - field.storage.node.field_components
+    - node.type.landing
+id: node.landing.field_components
+field_name: field_components
+entity_type: node
+bundle: landing
+label: 'Main Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:components'
+  handler_settings:
+    target_bundles:
+      callout: callout
+      link_cards: link_cards
+      slideshow: slideshow
+      testimonial: testimonial
+      simple_title_and_body: simple_title_and_body
+      view_block: view_block
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: simple_title_and_body
+field_type: entity_reference

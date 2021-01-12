@@ -1,0 +1,19 @@
+add bot opening hours exception entities:
+  title: 'Create new BOT Opening Hours Exception entities'
+
+administer bot opening hours exception entities:
+  title: 'Administer BOT Opening Hours Exception entities'
+  description: 'Allow to access the administration form to configure BOT Opening Hours Exception entities.'
+  restrict access: true
+
+delete bot opening hours exception entities:
+  title: 'Delete BOT Opening Hours Exception entities'
+
+edit bot opening hours exception entities:
+  title: 'Edit BOT Opening Hours Exception entities'
+
+view published bot opening hours exception entities:
+  title: 'View published BOT Opening Hours Exception entities'
+
+view unpublished bot opening hours exception entities:
+  title: 'View unpublished BOT Opening Hours Exception entities'

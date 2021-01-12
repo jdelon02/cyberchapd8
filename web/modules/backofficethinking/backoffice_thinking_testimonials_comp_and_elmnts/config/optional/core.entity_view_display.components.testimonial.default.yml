@@ -1,0 +1,103 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.testimonial
+    - field.field.components.testimonial.field_headline
+    - field.field.components.testimonial.field_layout_width
+    - field.field.components.testimonial.field_testimonial
+  module:
+    - ds
+    - entity_class_formatter
+    - slick_entityreference
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col_wrapper
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_headline
+        - field_testimonial
+        - field_layout_width
+id: components.testimonial.default
+targetEntityType: components
+bundle: testimonial
+mode: default
+content:
+  field_headline:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: ds_content
+  field_layout_width:
+    weight: 2
+    label: hidden
+    settings:
+      prefix: width-
+      suffix: ''
+      attr: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_class_formatter
+    region: ds_content
+  field_testimonial:
+    weight: 1
+    label: hidden
+    settings:
+      optionset: testimonial
+      skin: ''
+      view_mode: default
+      cache: 0
+      current_view_mode: default
+      override: false
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      skin_arrows: ''
+      skin_dots: ''
+      fx: ''
+      style: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: slick_entityreference_vanilla
+    region: ds_content
+hidden:
+  changed: true
+  created: true
+  title: true
+  uid: true

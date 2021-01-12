@@ -1,0 +1,66 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.image_25_right
+    - field.field.paragraph.wysiwyg_layouts.field_body
+    - field.field.paragraph.wysiwyg_layouts.field_layout
+    - field.field.paragraph.wysiwyg_layouts.field_media
+    - field.field.paragraph.wysiwyg_layouts.field_media_view_mode
+    - paragraphs.paragraphs_type.wysiwyg_layouts
+  module:
+    - ds
+    - options
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col_wrapper
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_body
+        - field_media_view_mode
+        - field_media
+id: paragraph.wysiwyg_layouts.image_25_right
+targetEntityType: paragraph
+bundle: wysiwyg_layouts
+mode: image_25_right
+content:
+  field_body:
+    type: text_default
+    weight: 0
+    region: ds_content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: ds_content
+  field_media_view_mode:
+    type: list_default
+    weight: 0
+    region: ds_content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_layout: true

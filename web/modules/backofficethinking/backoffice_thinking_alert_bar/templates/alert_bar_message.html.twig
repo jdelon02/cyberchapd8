@@ -1,0 +1,22 @@
+{#
+/**
+ * @file alert_bar_message.html.twig
+ * Default theme implementation to present Alert Bar Message data.
+ *
+ * This template is used when viewing Alert Bar Message pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_alert_bar_message()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('alert_bar_message') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

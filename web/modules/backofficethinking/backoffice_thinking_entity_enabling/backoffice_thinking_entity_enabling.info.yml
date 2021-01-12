@@ -1,0 +1,7 @@
+name: 'Entity Enabling'
+type: module
+core: 8.x
+dependencies:
+  - eck
+version: 8.x-1.0
+package: 'BackOffice Thinking'

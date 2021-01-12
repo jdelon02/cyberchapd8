@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: header_closed_dates
+label: 'Header closed dates'
+icon_uuid: null
+description: 'Migrated from field_collection field_header_closed_dates'
+behavior_plugins: {  }

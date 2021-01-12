@@ -1,0 +1,206 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.elements.card_background_image
+    - eck.eck_type.elements.link_card_item
+    - field.field.elements.link_card_item.field_call_to_action
+    - field.field.elements.link_card_item.field_description
+    - field.field.elements.link_card_item.field_imagee
+    - image.style.link_card_image
+  module:
+    - button_link
+    - ds
+    - field_group
+    - media
+    - text
+third_party_settings:
+  field_group:
+    group_link_card_text:
+      children:
+        - title
+        - field_description
+        - field_call_to_action
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      region: main
+      format_settings:
+        id: ''
+        classes: link-card-text-wrapper
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Link Card Text'
+  ds:
+    layout:
+      id: bs_1col_stacked
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_imagee
+        - title
+        - group_link_card_text
+        - field_description
+        - field_call_to_action
+        - 'display_field_copy:elements-card_link'
+    fields:
+      'display_field_copy:elements-card_link':
+        plugin_id: 'display_field_copy:elements-card_link'
+        weight: 2
+        label: hidden
+        formatter: link
+        settings:
+          formatter:
+            trim_length: '80'
+            url_only: 0
+            url_plain: 0
+            rel: 0
+            target: 0
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: ''
+            fi-cl: link-overlay
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+id: elements.link_card_item.card_background_image
+targetEntityType: elements
+bundle: link_card_item
+mode: card_background_image
+content:
+  field_call_to_action:
+    type: button_link
+    weight: 2
+    region: main
+    label: hidden
+    settings:
+      trim_length: 80
+      rel: ''
+      target: ''
+      link_text: ''
+      btn_type: btn-default
+      btn_size: ''
+      btn_block: null
+      icon_class: ''
+      disable_btn_role: 0
+      url_only: ''
+      url_plain: ''
+    third_party_settings: {  }
+  field_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: main
+  field_imagee:
+    type: media_thumbnail
+    weight: 0
+    region: main
+    label: hidden
+    settings:
+      image_style: link_card_image
+      image_link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  title:
+    type: string
+    weight: 0
+    region: main
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: h3
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+hidden:
+  changed: true
+  created: true
+  uid: true

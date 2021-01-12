@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: header_hours
+label: 'Header hours'
+icon_uuid: null
+description: 'Migrated from field_collection field_header_hours'
+behavior_plugins: {  }

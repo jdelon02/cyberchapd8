@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.testimonial
+    - field.storage.elements.field_description
+  module:
+    - text
+id: elements.testimonial.field_description
+field_name: field_description
+entity_type: elements
+bundle: testimonial
+label: 'Testimonial Item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

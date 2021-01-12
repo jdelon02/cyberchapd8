@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Title Display Options'
+vid: title_display_options
+description: ''
+weight: 0

@@ -1,0 +1,13 @@
+{
+    "name": "bot_opening_hours",
+    "type": "drupal-module",
+    "description": "Provides opening and closing hour exceptions.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/bot_opening_hours",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/bot_opening_hours",
+        "source": "http://cgit.drupalcode.org/bot_opening_hours",
+    },
+}

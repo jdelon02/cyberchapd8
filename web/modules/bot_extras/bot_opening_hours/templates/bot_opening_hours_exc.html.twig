@@ -1,0 +1,22 @@
+{#
+/**
+ * @file bot_opening_hours_exc.html.twig
+ * Default theme implementation to present BOT Opening Hours Exception data.
+ *
+ * This template is used when viewing BOT Opening Hours Exception pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_bot_opening_hours_exc()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('bot_opening_hours_exc') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

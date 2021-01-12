@@ -1,0 +1,14 @@
+
+# Alert Bar Message menu items definition
+entity.alert_bar_message.collection:
+  title: 'Alert Bar Message list'
+  route_name: entity.alert_bar_message.collection
+  description: 'Alert Bar Messages'
+  parent: system.admin_content
+  weight: 100
+
+alert_bar_message.admin.structure.settings:
+  title: 'Alert Bar Message settings'
+  description: 'Configure Alert Bar Message entities'
+  route_name: alert_bar_message.settings
+  parent: system.admin_structure

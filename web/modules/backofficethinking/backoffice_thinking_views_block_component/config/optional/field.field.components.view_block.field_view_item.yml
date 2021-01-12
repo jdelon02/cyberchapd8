@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.view_block
+    - eck.eck_type.elements.view_item
+    - field.storage.components.field_view_item
+id: components.view_block.field_view_item
+field_name: field_view_item
+entity_type: components
+bundle: view_block
+label: 'View Item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:elements'
+  handler_settings:
+    target_bundles:
+      view_item: view_item
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

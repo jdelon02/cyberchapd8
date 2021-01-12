@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - 'Tour Menu Admin'
+id: menu-admin-tour
+label: 'Menu Admin Tour'
+module: 'Tour Menu Admin'
+routes:
+  -
+    route_name: entity.menu.collection
+tips:
+  menu-management:
+    id: menu-management
+    plugin: text
+    label: 'Menu Management'
+    weight: -100
+    attributes: null
+    body: 'All menus displayed on the website are managed here. Edit and add menu links by clicking "Edit menu" or "Add link".'
+    location: top
+  edit-menu-links:
+    id: edit-menu-links
+    plugin: text
+    label: 'Edit Menu & Links'
+    weight: -100
+    attributes:
+      data-class: 'block-system-main-block > table tbody > tr:first-child .dropbutton-wrapper'
+    body: 'View all menu links by clicking "Edit menu" or add new links by clicking the down arrow and selecting "Add link".'
+    location: top

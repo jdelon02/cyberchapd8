@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.view_item
+    - field.storage.elements.field_call_to_action
+  module:
+    - link
+id: elements.view_item.field_call_to_action
+field_name: field_call_to_action
+entity_type: elements
+bundle: view_item
+label: Link
+description: 'Optional button link. E.g. "View all" that links to full view page.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: fp_cinemascope_992x425
+label: 'FP Cinemascope (992x425)'
+effects:
+  737b4631-b9ed-42c1-a4e7-352248b424f1:
+    uuid: 737b4631-b9ed-42c1-a4e7-352248b424f1
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 992
+      height: 425
+      anchor: center-center

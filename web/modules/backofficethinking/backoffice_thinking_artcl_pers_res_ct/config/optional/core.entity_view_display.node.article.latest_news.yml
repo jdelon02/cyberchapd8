@@ -1,0 +1,167 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.latest_news
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_meta_tags
+    - field.field.node.article.field_news_type
+    - field.field.node.article.field_photo
+    - field.field.node.article.field_tags
+    - node.type.article
+  module:
+    - ds
+    - field_layout
+    - smart_trim
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_news_type
+        - node_title
+        - body
+        - 'display_field_copy:node-link_overlay'
+    fields:
+      'display_field_copy:node-link_overlay':
+        plugin_id: 'display_field_copy:node-link_overlay'
+        weight: 3
+        label: hidden
+        formatter: string
+        settings:
+          formatter:
+            link_to_entity: '1'
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: ''
+            fi-cl: link-overlay
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+      node_title:
+        plugin_id: node_title
+        weight: 1
+        label: hidden
+        formatter: default
+        settings:
+          link: true
+          wrapper: h3
+          class: subheadline
+id: node.article.latest_news
+targetEntityType: node
+bundle: article
+mode: latest_news
+content:
+  body:
+    type: smart_trim
+    weight: 2
+    region: main
+    settings:
+      trim_length: 150
+      trim_type: chars
+      trim_suffix: ...
+      wrap_class: trimmed
+      more_text: More
+      more_class: more-link
+      summary_handler: trim
+      wrap_output: false
+      more_link: false
+      trim_options:
+        text: false
+        trim_zero: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    label: hidden
+  field_news_type:
+    type: entity_reference_label
+    weight: 0
+    region: main
+    label: hidden
+    settings:
+      link: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: ''
+            fi-cl: type-label
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+hidden:
+  comment: true
+  field_meta_tags: true
+  field_photo: true
+  field_tags: true
+  links: true

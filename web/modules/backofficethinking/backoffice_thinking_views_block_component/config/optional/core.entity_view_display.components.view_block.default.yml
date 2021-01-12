@@ -1,0 +1,74 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.view_block
+    - field.field.components.view_block.field_background_colors
+    - field.field.components.view_block.field_view_item
+  module:
+    - ds
+    - entity_class_formatter
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            col-sm-12: col-sm-12
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              clearfix: clearfix
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_background_colors
+        - field_headline
+        - field_view_item
+        - field_link
+id: components.view_block.default
+targetEntityType: components
+bundle: view_block
+mode: default
+content:
+  field_background_colors:
+    weight: 0
+    label: hidden
+    settings:
+      prefix: bg-color-
+      suffix: ''
+      attr: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_class_formatter
+    region: main
+  field_view_item:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: main
+hidden:
+  changed: true
+  created: true
+  title: true
+  uid: true

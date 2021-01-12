@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains rh_eck.module.
+ */
+
+use Drupal\Core\Entity\EntityTypeInterface;
+
+/**
+ * Implements hook_entity_base_field_info().
+ */
+function rh_eck_entity_base_field_info(EntityTypeInterface $entity_type) {
+  $eck_entity_types = \Drupal::service('entity_type.manager')
+    ->getStorage('eck_entity_type')->loadMultiple();
+  $types = array_keys($eck_entity_types);
+  if (in_array($entity_type->id(), $types)) {
+    return \Drupal::service('rabbit_hole.entity_extender')
+      ->getRabbitHoleFields($entity_type->id());
+  }
+}

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains backoffice_thinking_alert_bar.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function backoffice_thinking_alert_bar_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the backoffice_thinking_alert_bar module.
+    case 'help.page.backoffice_thinking_alert_bar':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('BackOffice Thinking Standard Alert Bar Structure') . '</p>';
+      return $output;
+
+    default:
+  }
+}

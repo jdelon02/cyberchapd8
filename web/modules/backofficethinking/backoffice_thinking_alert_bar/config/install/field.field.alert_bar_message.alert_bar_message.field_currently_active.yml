@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.alert_bar_message.field_currently_active
+  module:
+    - backoffice_thinking_alert_bar
+id: alert_bar_message.alert_bar_message.field_currently_active
+field_name: field_currently_active
+entity_type: alert_bar_message
+bundle: alert_bar_message
+label: 'Currently Active'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

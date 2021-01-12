@@ -1,0 +1,8 @@
+uuid: 4588a71a-591c-4a5b-8233-7ce985444c5a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Title Display Options'
+vid: title_display_options
+description: ''
+weight: 0

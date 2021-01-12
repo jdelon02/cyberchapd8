@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: fp_cinemascope_1920x823
+label: 'FP Cinemascope (1920x823)'
+effects:
+  02f0e62e-ac47-4cca-9b73-4fd99c33f5f0:
+    uuid: 02f0e62e-ac47-4cca-9b73-4fd99c33f5f0
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1920
+      height: 823
+      anchor: center-center

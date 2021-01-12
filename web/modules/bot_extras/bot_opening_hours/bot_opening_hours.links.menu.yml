@@ -1,0 +1,20 @@
+
+# BOT Opening Hours Exception menu items definition
+entity.bot_opening_hours_exc.collection:
+  title: 'Opening Hours Exception list'
+  route_name: entity.bot_opening_hours_exc.collection
+  description: 'List Opening Hours Exception entities'
+  parent: system.admin_content
+  weight: 100
+
+bot_opening_hours_exc.admin.structure.settings:
+  title: 'Opening Hours Exception settings'
+  description: 'Configure Opening Hours Exception entities'
+  route_name: bot_opening_hours_exc.settings
+  parent: system.admin_structure
+bot_opening_hours.bot_default_hours:
+  title: 'Default Hours'
+  route_name: bot_opening_hours.bot_default_hours
+  description: 'Manage default opening hours'
+  parent: system.admin_content
+  weight: 99

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: fp_widescreen_1200x675
+label: 'FP Widescreen (1200x675)'
+effects:
+  9ee3aa41-17be-4d67-9091-aa6cfc0ee993:
+    uuid: 9ee3aa41-17be-4d67-9091-aa6cfc0ee993
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1200
+      height: 675
+      anchor: center-center

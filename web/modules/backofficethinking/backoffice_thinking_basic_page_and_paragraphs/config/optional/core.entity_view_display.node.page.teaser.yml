@@ -1,0 +1,45 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.body
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_page_options
+    - field.field.node.page.field_paragraphs
+    - field.field.node.page.field_title_banner_button
+    - field.field.node.page.field_title_banner_headline
+    - field.field.node.page.field_title_banner_media
+    - node.type.page
+  module:
+    - field_layout
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.page.teaser
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 100
+    region: content
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 101
+    region: content
+hidden:
+  field_meta_tags: true
+  field_page_options: true
+  field_paragraphs: true
+  field_title_banner_button: true
+  field_title_banner_headline: true
+  field_title_banner_media: true

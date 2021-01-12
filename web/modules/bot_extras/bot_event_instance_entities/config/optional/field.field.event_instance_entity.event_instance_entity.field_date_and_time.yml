@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.event_instance_entity.field_date_and_time
+  module:
+    - bot_event_instance_entities
+    - datetime_range
+id: event_instance_entity.event_instance_entity.field_date_and_time
+field_name: field_date_and_time
+entity_type: event_instance_entity
+bundle: event_instance_entity
+label: 'Date and Time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: relative
+    default_end_date: '+1 day'
+default_value_callback: ''
+settings: {  }
+field_type: daterange

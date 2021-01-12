@@ -1,0 +1,4 @@
+bundle: backoffice_thinking
+excluded:
+  - metatag.metatag_defaults.node__landing
+required: true

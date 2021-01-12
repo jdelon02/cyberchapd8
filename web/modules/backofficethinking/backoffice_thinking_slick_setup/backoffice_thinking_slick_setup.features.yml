@@ -1,0 +1,5 @@
+bundle: backoffice_thinking
+excluded:
+  - block.block.views_block__alert_bar_message_alert_message_block
+  - metatag.metatag_defaults.node__landing
+required: true

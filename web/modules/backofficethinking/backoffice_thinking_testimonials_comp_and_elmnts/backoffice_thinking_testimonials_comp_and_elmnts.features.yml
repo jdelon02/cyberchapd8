@@ -1,0 +1,4 @@
+bundle: backoffice_thinking
+excluded:
+  - field.storage.components.field_headline
+required: true

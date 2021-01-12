@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: link_card_image
+label: 'Link Card Image (576x768)'
+effects:
+  df131e45-6538-4069-abb6-b2eea7bf55da:
+    uuid: df131e45-6538-4069-abb6-b2eea7bf55da
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 576
+      height: 768
+      anchor: center-center

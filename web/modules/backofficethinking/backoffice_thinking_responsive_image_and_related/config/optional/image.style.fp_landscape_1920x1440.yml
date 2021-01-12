@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: fp_landscape_1920x1440
+label: 'FP Landscape (1920x1440)'
+effects:
+  7802abd8-b34e-4422-bad1-84851d76fee1:
+    uuid: 7802abd8-b34e-4422-bad1-84851d76fee1
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1920
+      height: 1440
+      anchor: center-center

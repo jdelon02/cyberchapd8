@@ -1,0 +1,8 @@
+name: Rabbit Hole ECK
+type: module
+description: Adds Rabbit Hole functionality for eck entity type.
+dependencies:
+  - rabbit_hole
+  - eck
+
+core_version_requirement: ^8 || ^9

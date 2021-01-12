@@ -1,0 +1,9 @@
+id: link_overlay
+label: 'Link Overlay'
+ui_limit: ''
+properties:
+  field_id: node.title
+type: display_field_copy
+type_label: 'Copy field'
+entities:
+  node: node

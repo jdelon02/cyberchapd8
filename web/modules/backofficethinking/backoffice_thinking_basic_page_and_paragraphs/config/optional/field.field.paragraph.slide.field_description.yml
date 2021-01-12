@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.slide
+  module:
+    - text
+id: paragraph.slide.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: slide
+label: Description
+description: 'Limit text to 15 to 20 words.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

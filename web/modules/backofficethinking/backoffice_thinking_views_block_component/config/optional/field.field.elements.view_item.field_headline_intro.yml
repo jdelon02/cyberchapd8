@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.view_item
+    - field.storage.elements.field_headline_intro
+  module:
+    - text
+id: elements.view_item.field_headline_intro
+field_name: field_headline_intro
+entity_type: elements
+bundle: view_item
+label: Headline/Intro
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,82 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.basic_title
+    - field.field.node.landing.field_body
+    - field.field.node.landing.field_components
+    - field.field.node.landing.field_meta_description
+    - field.field.node.landing.field_meta_tags
+    - field.field.node.landing.field_page_options
+    - field.field.node.landing.field_title_banner_button
+    - field.field.node.landing.field_title_banner_headline
+    - field.field.node.landing.field_title_banner_media
+    - node.type.landing
+  module:
+    - ds
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - node_title
+        - field_components
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h1
+          class: basic-title
+          link: false
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+id: node.landing.basic_title
+targetEntityType: node
+bundle: landing
+mode: basic_title
+content:
+  field_components:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: main
+hidden:
+  field_body: true
+  field_meta_description: true
+  field_meta_tags: true
+  field_page_options: true
+  field_title_banner_button: true
+  field_title_banner_headline: true
+  field_title_banner_media: true
+  links: true

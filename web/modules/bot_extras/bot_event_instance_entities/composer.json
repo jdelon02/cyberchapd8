@@ -1,0 +1,13 @@
+{
+    "name": "bot_event_instance_entities",
+    "type": "drupal-module",
+    "description": "BackOffice Custom Event Instance Entities",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/bot_event_instance_entities",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/bot_event_instance_entities",
+        "source": "http://cgit.drupalcode.org/bot_event_instance_entities",
+    },
+}

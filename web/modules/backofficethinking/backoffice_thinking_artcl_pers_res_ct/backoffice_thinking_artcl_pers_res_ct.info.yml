@@ -1,0 +1,35 @@
+name: 'Article, Person, Resource Content Types'
+type: module
+core: 8.x
+dependencies:
+  - backoffice_thinking_basic_page_and_paragraphs
+  - backoffice_thinking_responsive_image_and_related
+  - better_exposed_filters
+  - button_link
+  - comment
+  - datetime_range
+  - ds
+  - entity_reference_revisions
+  - field
+  - field_group
+  - field_layout
+  - file
+  - image
+  - layout_discovery
+  - link
+  - media
+  - media_library
+  - menu_ui
+  - metatag
+  - node
+  - paragraphs
+  - path
+  - rdf
+  - smart_trim
+  - taxonomy
+  - text
+  - user
+  - views
+  - views_infinite_scroll
+version: 8.x-1.0
+package: 'BackOffice Thinking'

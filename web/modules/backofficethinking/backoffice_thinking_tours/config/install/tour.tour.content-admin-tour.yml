@@ -1,0 +1,74 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - 'Tour Content Admin'
+id: content-admin-tour
+label: 'Content Admin Tour'
+module: 'Tour Content Admin'
+routes:
+  -
+    route_name: system.admin_content
+tips:
+  content-admin:
+    id: content-admin
+    plugin: text
+    label: 'Content Admin'
+    weight: -100
+    attributes: null
+    body: 'The content admin screens gives you access for managing, editing, and creating new content. Let''s get started.'
+    location: top
+  content-tab:
+    id: content-tab
+    plugin: text
+    label: 'Content Tab'
+    weight: -100
+    attributes:
+      data-class: 'tabs.primary a[href*="/admin/content"]'
+    body: 'Manage and filter content nodes within this tab screen.'
+    location: bottom
+  comment-tab:
+    id: comment-tab
+    plugin: text
+    label: 'Comment Tab'
+    weight: -100
+    attributes:
+      data-class: 'tabs.primary a[href*="/admin/content/comment"]'
+    body: 'Manage published and unapproved comments for display on your website.'
+    location: bottom
+  files-tab:
+    id: files-tab
+    plugin: text
+    label: 'Files Tab'
+    weight: -100
+    attributes:
+      data-class: 'tabs.primary a[href*="/admin/content/files"]'
+    body: 'See a list of all files uploaded to your website.'
+    location: bottom
+  media-tab:
+    id: media-tab
+    plugin: text
+    label: 'Media Tab'
+    weight: -100
+    attributes:
+      data-class: 'tabs.primary a[href*="/admin/content/media"]'
+    body: 'See a list of all images and media uploaded or referenced on your website.'
+    location: bottom
+  add-content:
+    id: add-content
+    plugin: text
+    label: 'Add Content'
+    weight: -100
+    attributes:
+      data-class: 'action-links a[href*="/node/add"]'
+    body: 'Add a new content node page by clicking the "Add content" button. FYI: A node is any piece of individual content, such as a page, article, or a blog entry.'
+    location: top
+  filter-search-content:
+    id: filter-search-content
+    plugin: text
+    label: 'Filter & Search Content'
+    weight: -100
+    attributes:
+      data-class: views-exposed-form
+    body: 'Filter and search your content to find pages quickly.'
+    location: bottom

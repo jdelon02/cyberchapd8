@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.bot_opening_hours_exc.field_message
+  module:
+    - allowed_formats
+    - bot_opening_hours
+    - text
+third_party_settings:
+  allowed_formats:
+    simple: simple
+    basic_html: '0'
+    plain: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+id: bot_opening_hours_exc.bot_opening_hours_exc.field_message
+field_name: field_message
+entity_type: bot_opening_hours_exc
+bundle: bot_opening_hours_exc
+label: Message
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

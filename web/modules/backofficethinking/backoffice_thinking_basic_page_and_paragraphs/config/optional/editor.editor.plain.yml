@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.plain
+  module:
+    - ckeditor
+format: plain
+editor: ckeditor
+settings:
+  toolbar:
+    rows: {  }
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+    tokenbrowser:
+      token_types: {  }
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

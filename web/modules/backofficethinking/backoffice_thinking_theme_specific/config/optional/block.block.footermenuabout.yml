@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu---about
+  module:
+    - menu_block
+  theme:
+    - bot_custom
+id: footermenuabout
+theme: bot_custom
+region: footer_two
+weight: -9
+provider: null
+plugin: 'menu_block:footer-menu---about'
+settings:
+  id: 'menu_block:footer-menu---about'
+  label: 'Footer Menu - About'
+  provider: menu_block
+  label_display: '0'
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand: false
+  parent: 'footer-menu---about:'
+  suggestion: footer_menu___about
+visibility: {  }

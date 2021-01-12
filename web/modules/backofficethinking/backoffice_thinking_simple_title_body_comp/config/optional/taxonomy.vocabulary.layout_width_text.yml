@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Layout Width - Text'
+vid: layout_width_text
+description: 'Layout width options for text areas'
+weight: 0

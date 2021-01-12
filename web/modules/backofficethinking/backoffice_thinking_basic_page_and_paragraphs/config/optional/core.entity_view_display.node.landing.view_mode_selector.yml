@@ -1,0 +1,102 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.view_mode_selector
+    - field.field.node.landing.field_body
+    - field.field.node.landing.field_components
+    - field.field.node.landing.field_meta_description
+    - field.field.node.landing.field_meta_tags
+    - field.field.node.landing.field_page_options
+    - field.field.node.landing.field_title_banner_button
+    - field.field.node.landing.field_title_banner_headline
+    - field.field.node.landing.field_title_banner_media
+    - node.type.landing
+  module:
+    - ds
+    - link
+    - user
+    - view_mode_selector
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - field_components
+        - field_title_banner_media
+        - field_title_banner_headline
+        - field_title_banner_button
+        - field_page_options
+id: node.landing.view_mode_selector
+targetEntityType: node
+bundle: landing
+mode: view_mode_selector
+content:
+  field_components:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: main
+  field_page_options:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: view_mode_selector
+    region: main
+  field_title_banner_button:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: main
+  field_title_banner_headline:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: main
+  field_title_banner_media:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: main
+hidden:
+  field_body: true
+  field_meta_description: true
+  field_meta_tags: true
+  links: true

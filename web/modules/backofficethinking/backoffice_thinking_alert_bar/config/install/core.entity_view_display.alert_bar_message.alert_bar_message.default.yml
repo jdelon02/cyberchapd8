@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.alert_bar_message.alert_bar_message.field_alert_message
+    - field.field.alert_bar_message.alert_bar_message.field_currently_active
+  module:
+    - backoffice_thinking_alert_bar
+    - text
+id: alert_bar_message.alert_bar_message.default
+targetEntityType: alert_bar_message
+bundle: alert_bar_message
+mode: default
+content:
+  field_alert_message:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_currently_active: true
+  name: true
+  user_id: true

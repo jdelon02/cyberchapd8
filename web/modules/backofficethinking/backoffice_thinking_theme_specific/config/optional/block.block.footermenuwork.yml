@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu---work
+  module:
+    - menu_block
+  theme:
+    - bot_custom
+id: footermenuwork
+theme: bot_custom
+region: footer_two
+weight: -7
+provider: null
+plugin: 'menu_block:footer-menu---work'
+settings:
+  id: 'menu_block:footer-menu---work'
+  label: 'Footer Menu - Work'
+  provider: menu_block
+  label_display: '0'
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand: false
+  parent: 'footer-menu---work:'
+  suggestion: footer_menu___work
+visibility: {  }

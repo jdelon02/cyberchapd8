@@ -1,0 +1,8 @@
+uuid: cb7ee4c3-05ee-4ab4-8224-6ffbe38acdf2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Layout Width - Text'
+vid: layout_width_text
+description: 'Layout width options for text areas'
+weight: 0

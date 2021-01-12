@@ -1,0 +1,5 @@
+entity.bot_opening_hours_exc.add_form:
+  route_name: entity.bot_opening_hours_exc.add_form
+  title: 'Add BOT Opening Hours Exception'
+  appears_on:
+    - entity.bot_opening_hours_exc.collection

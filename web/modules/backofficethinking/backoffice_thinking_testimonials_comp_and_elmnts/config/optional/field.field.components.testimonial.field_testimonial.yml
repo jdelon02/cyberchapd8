@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.testimonial
+    - eck.eck_type.elements.testimonial
+    - field.storage.components.field_testimonial
+id: components.testimonial.field_testimonial
+field_name: field_testimonial
+entity_type: components
+bundle: testimonial
+label: Testimonial
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:elements'
+  handler_settings:
+    target_bundles:
+      testimonial: testimonial
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Theme Colors'
+vid: theme_colors
+description: ''
+weight: 0

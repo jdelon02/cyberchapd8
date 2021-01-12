@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Layout Width'
+vid: layout_width
+description: ''
+weight: 0

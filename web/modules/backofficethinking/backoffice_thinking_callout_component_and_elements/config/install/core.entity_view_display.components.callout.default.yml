@@ -1,0 +1,184 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.callout
+    - field.field.components.callout.field_body
+    - field.field.components.callout.field_headline
+    - field.field.components.callout.field_layout
+    - field.field.components.callout.field_layout_width
+    - field.field.components.callout.field_link
+    - field.field.components.callout.field_media
+    - field.field.components.callout.field_media_caption
+    - field.field.components.callout.field_subheadline
+  module:
+    - button_link
+    - ds
+    - entity_class_formatter
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col_stacked
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          left:
+            wrapper: div
+            classes:
+              col-sm-7: col-sm-7
+            add_region_classes: 1
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-5: col-sm-5
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      top:
+        - field_headline
+        - field_layout
+        - field_layout_width
+      left:
+        - field_media
+        - field_media_caption
+      right:
+        - field_subheadline
+        - field_body
+        - field_link
+id: components.callout.default
+targetEntityType: components
+bundle: callout
+mode: default
+content:
+  field_body:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: right
+  field_headline:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: top
+  field_layout:
+    weight: 1
+    label: hidden
+    settings:
+      prefix: layout-
+      suffix: ''
+      attr: ''
+    third_party_settings: {  }
+    type: entity_class_formatter
+    region: top
+  field_layout_width:
+    weight: 2
+    label: hidden
+    settings:
+      prefix: width-
+      suffix: ''
+      attr: ''
+    third_party_settings: {  }
+    type: entity_class_formatter
+    region: top
+  field_link:
+    weight: 7
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+      link_text: ''
+      btn_type: btn-default
+      btn_size: ''
+      btn_block: null
+      icon_class: ''
+      disable_btn_role: 0
+    third_party_settings: {  }
+    type: button_link
+    region: right
+  field_media:
+    type: entity_reference_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: landscape_4_3
+      link: false
+    third_party_settings: {  }
+    region: left
+  field_media_caption:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: left
+  field_subheadline:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: h3
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: string
+    region: right
+hidden:
+  changed: true
+  created: true
+  title: true
+  uid: true

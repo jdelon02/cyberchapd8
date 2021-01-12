@@ -1,0 +1,5 @@
+entity.event_instance_entity.add_form:
+  route_name: entity.event_instance_entity.add_form
+  title: 'Add Event Instance'
+  appears_on:
+    - entity.event_instance_entity.collection

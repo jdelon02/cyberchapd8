@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.link_card
+    - eck.eck_type.elements.link_card_item
+    - field.storage.elements.field_link_card
+id: elements.link_card.field_link_card
+field_name: field_link_card
+entity_type: elements
+bundle: link_card
+label: 'Link Card'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:elements'
+  handler_settings:
+    target_bundles:
+      link_card_item: link_card_item
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: link_card
+field_type: entity_reference

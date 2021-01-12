@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: elements.card_background_image
+label: 'Card Background Image'
+targetEntityType: elements
+cache: true

@@ -1,0 +1,9 @@
+bot_opening_hours.bot_default_hours:
+  path: '/admin/config/bot_opening_hours/botdefaulthours'
+  defaults:
+    _form: '\Drupal\bot_opening_hours\Form\BOTDefaultHours'
+    _title: 'BOT Default Hours'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

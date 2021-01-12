@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains bot_event_instance_entities.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bot_event_instance_entities_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bot_event_instance_entities module.
+    case 'help.page.bot_event_instance_entities':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('BackOffice Custom Event Instance Entities') . '</p>';
+      return $output;
+
+    default:
+  }
+}

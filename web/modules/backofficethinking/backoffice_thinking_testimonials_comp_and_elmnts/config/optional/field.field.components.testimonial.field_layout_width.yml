@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.testimonial
+    - field.storage.components.field_layout_width
+    - taxonomy.vocabulary.layout_width
+  content:
+    - 'taxonomy_term:layout_width:cb42e7df-d81e-458a-b7fe-71833bb65ed3'
+id: components.testimonial.field_layout_width
+field_name: field_layout_width
+entity_type: components
+bundle: testimonial
+label: 'Layout Width'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: cb42e7df-d81e-458a-b7fe-71833bb65ed3
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      layout_width: layout_width
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

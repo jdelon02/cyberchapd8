@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: fp_widescreen_992x558
+label: 'FP Widescreen (992x558)'
+effects:
+  5040f842-486e-428b-8c15-797083018d6a:
+    uuid: 5040f842-486e-428b-8c15-797083018d6a
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 992
+      height: 558
+      anchor: center-center

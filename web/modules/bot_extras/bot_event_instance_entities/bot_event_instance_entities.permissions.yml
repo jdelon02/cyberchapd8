@@ -1,0 +1,31 @@
+add event instance entities:
+  title: 'Create new Event Instance entities'
+
+administer event instance entities:
+  title: 'Administer Event Instance entities'
+  description: 'Allow to access the administration form to configure Event Instance entities.'
+  restrict access: true
+
+delete event instance entities:
+  title: 'Delete Event Instance entities'
+
+edit event instance entities:
+  title: 'Edit Event Instance entities'
+
+view published event instance entities:
+  title: 'View published Event Instance entities'
+
+view unpublished event instance entities:
+  title: 'View unpublished Event Instance entities'
+
+view all event instance revisions:
+  title: 'View all Event Instance revisions'
+
+revert all event instance revisions:
+  title: 'Revert all Event Instance revisions'
+  description: 'Role requires permission <em>view Event Instance revisions</em> and <em>edit rights</em> for event instance entities in question or <em>administer event instance entities</em>.'
+
+delete all event instance revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Event Instance revisions</em> and <em>delete rights</em> for event instance entities in question or <em>administer event instance entities</em>.'
+

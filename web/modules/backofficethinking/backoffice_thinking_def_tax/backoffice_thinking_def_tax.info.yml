@@ -1,0 +1,7 @@
+name: 'Default Taxonomy'
+type: module
+description: 'Default Taxonomy Terms'
+core: 8.x
+package: 'BackOffice Thinking'
+dependencies:
+- default_content

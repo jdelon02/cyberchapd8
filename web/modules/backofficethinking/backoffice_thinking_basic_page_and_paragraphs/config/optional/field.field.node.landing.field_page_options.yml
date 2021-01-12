@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_options
+    - node.type.landing
+  module:
+    - view_mode_selector
+id: node.landing.field_page_options
+field_name: field_page_options
+entity_type: node
+bundle: landing
+label: 'Page Options'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: banner_title
+default_value_callback: ''
+settings:
+  view_modes:
+    default:
+      enable: false
+      hide_title: false
+      icon: {  }
+    banner_title:
+      enable: true
+      hide_title: false
+      icon: {  }
+    basic_title:
+      enable: true
+      hide_title: false
+      icon: {  }
+    view_mode_selector:
+      enable: false
+      hide_title: false
+      icon: {  }
+field_type: view_mode_selector

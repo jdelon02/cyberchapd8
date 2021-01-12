@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.event_instance_entity.field_event_series
+    - node.type.event_series
+  module:
+    - bot_event_instance_entities
+id: event_instance_entity.event_instance_entity.field_event_series
+field_name: field_event_series
+entity_type: event_instance_entity
+bundle: event_instance_entity
+label: 'Event Series'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      event_series: event_series
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

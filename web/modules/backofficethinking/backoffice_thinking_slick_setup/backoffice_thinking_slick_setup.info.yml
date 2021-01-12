@@ -1,0 +1,10 @@
+name: 'Slick Setup'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - metatag
+  - slick
+  - views
+version: 8.x-1.0
+package: 'BackOffice Thinking'

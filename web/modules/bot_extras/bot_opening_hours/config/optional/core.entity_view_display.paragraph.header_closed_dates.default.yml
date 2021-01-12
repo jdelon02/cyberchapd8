@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.header_closed_dates.field_open_closed
+    - field.field.paragraph.header_closed_dates.field_open_closed_date
+    - paragraphs.paragraphs_type.header_closed_dates
+  module:
+    - datetime
+id: paragraph.header_closed_dates.default
+targetEntityType: paragraph
+bundle: header_closed_dates
+mode: default
+content:
+  field_open_closed:
+    label: hidden
+    weight: 0
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_open_closed_date:
+    label: hidden
+    weight: 2
+    type: datetime_default
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

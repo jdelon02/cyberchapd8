@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.bot_opening_hours_exc.field_status
+  module:
+    - bot_opening_hours
+    - options
+id: bot_opening_hours_exc.bot_opening_hours_exc.field_status
+field_name: field_status
+entity_type: bot_opening_hours_exc
+bundle: bot_opening_hours_exc
+label: Open/Closed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

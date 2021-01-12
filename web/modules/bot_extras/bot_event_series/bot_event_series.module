@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains bot_event_series.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bot_event_series_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bot_event_series module.
+    case 'help.page.bot_event_series':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom Event Series Content Type') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function bot_event_series_theme() {
+  return [
+    'bot_event_series' => [
+      'render element' => 'children',
+    ],
+  ];
+}

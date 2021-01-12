@@ -1,0 +1,68 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.bot_opening_hours_exc.bot_opening_hours_exc.field_date
+    - field.field.bot_opening_hours_exc.bot_opening_hours_exc.field_hours
+    - field.field.bot_opening_hours_exc.bot_opening_hours_exc.field_message
+    - field.field.bot_opening_hours_exc.bot_opening_hours_exc.field_status
+  module:
+    - bot_opening_hours
+    - datetime
+    - options
+    - text
+    - time_field
+    - user
+id: bot_opening_hours_exc.bot_opening_hours_exc.default
+targetEntityType: bot_opening_hours_exc
+bundle: bot_opening_hours_exc
+mode: default
+content:
+  field_date:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_hours:
+    weight: 2
+    label: above
+    settings:
+      time_format: 'h:i a'
+      timerange_format: 'start ~ end'
+    third_party_settings: {  }
+    type: time_range_formatter
+    region: content
+  field_message:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_status:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  name:
+    label: above
+    type: string
+    weight: -4
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  user_id:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

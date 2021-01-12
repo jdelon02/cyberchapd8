@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: elements.field_link_card
+field_name: field_link_card
+entity_type: elements
+type: entity_reference
+settings:
+  target_type: elements
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

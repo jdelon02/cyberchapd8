@@ -1,0 +1,8 @@
+uuid: 9d3269bf-65d7-4cfc-ba03-bf5657528615
+langcode: en
+status: true
+dependencies: {  }
+name: 'Theme Colors'
+vid: theme_colors
+description: ''
+weight: 0

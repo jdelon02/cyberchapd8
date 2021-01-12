@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.link_card
+    - field.field.elements.link_card.field_card_layout
+    - field.field.elements.link_card.field_link_card
+  module:
+    - entity_reference_display
+id: elements.link_card.default
+targetEntityType: elements
+bundle: link_card
+mode: default
+content:
+  field_link_card:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+      display_field: null
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_display_default
+    region: content
+hidden:
+  changed: true
+  created: true
+  field_card_layout: true
+  title: true
+  uid: true

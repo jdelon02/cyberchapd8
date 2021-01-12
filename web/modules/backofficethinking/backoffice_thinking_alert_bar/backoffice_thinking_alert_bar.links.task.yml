@@ -1,0 +1,26 @@
+# Alert Bar Message routing definition
+alert_bar_message.settings_tab:
+  route_name: alert_bar_message.settings
+  title: 'Settings'
+  base_route: alert_bar_message.settings
+
+entity.alert_bar_message.canonical:
+  route_name: entity.alert_bar_message.canonical
+  base_route: entity.alert_bar_message.canonical
+  title: 'View'
+
+entity.alert_bar_message.edit_form:
+  route_name: entity.alert_bar_message.edit_form
+  base_route: entity.alert_bar_message.canonical
+  title: 'Edit'
+
+entity.alert_bar_message.version_history:
+  route_name: entity.alert_bar_message.version_history
+  base_route: entity.alert_bar_message.canonical
+  title: 'Revisions'
+
+entity.alert_bar_message.delete_form:
+  route_name:  entity.alert_bar_message.delete_form
+  base_route:  entity.alert_bar_message.canonical
+  title: Delete
+  weight: 10

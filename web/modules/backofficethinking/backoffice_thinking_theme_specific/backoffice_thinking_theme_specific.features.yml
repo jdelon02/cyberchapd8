@@ -1,0 +1,7 @@
+bundle: backoffice_thinking
+excluded:
+  - metatag.metatag_defaults.node__landing
+  - pathauto.pattern.news_article
+  - pathauto.pattern.person
+  - pathauto.pattern.resources
+required: true

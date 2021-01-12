@@ -1,0 +1,22 @@
+{#
+/**
+ * @file event_instance_entity.html.twig
+ * Default theme implementation to present Event Instance data.
+ *
+ * This template is used when viewing Event Instance pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_event_instance_entity()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('event_instance_entity') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

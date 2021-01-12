@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.link_card
+    - field.field.elements.link_card.field_card_layout
+    - field.field.elements.link_card.field_link_card
+  module:
+    - field_layout
+    - inline_entity_form
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: elements.link_card.default
+targetEntityType: elements
+bundle: link_card
+mode: default
+content:
+  field_card_layout:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_link_card:
+    type: inline_entity_form_simple
+    weight: 3
+    region: content
+    settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      revision: false
+      override_labels: false
+      collapsible: false
+      collapsed: false
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

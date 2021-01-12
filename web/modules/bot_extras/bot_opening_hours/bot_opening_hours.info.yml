@@ -1,0 +1,8 @@
+name: 'BackOffice Thinking Hours Module'
+type: module
+description: 'Provides opening and closing hour defaults and exceptions.'
+core: 8.x
+package: 'BackOffice Thinking Extras'
+dependencies:
+- time_field
+- allowed_formats

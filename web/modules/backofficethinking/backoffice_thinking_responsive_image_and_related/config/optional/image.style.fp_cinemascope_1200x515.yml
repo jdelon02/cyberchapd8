@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: fp_cinemascope_1200x515
+label: 'FP Cinemascope (1200x515)'
+effects:
+  a92a6b2c-f2f8-4c89-ac3b-a6fa2f633e37:
+    uuid: a92a6b2c-f2f8-4c89-ac3b-a6fa2f633e37
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1200
+      height: 515
+      anchor: center-center

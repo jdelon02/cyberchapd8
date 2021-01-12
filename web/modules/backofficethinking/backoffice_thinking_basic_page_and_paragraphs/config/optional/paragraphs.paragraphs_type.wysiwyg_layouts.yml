@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: wysiwyg_layouts
+label: 'Text with Image Float'
+icon_uuid: null
+icon_default: null
+description: 'Paragraphs that allow for Image and Text to be displayed together.'
+behavior_plugins: {  }

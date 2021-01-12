@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: footer-menu---resources
+label: 'Footer Menu - Resources'
+description: ''
+locked: false

@@ -1,0 +1,9 @@
+name: 'Date Group'
+type: module
+description: 'Provide a field formatter to group start and end dates.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Fields
+dependencies:
+ - drupal:datetime_range
+ - drupal:system (>=8.2.0)

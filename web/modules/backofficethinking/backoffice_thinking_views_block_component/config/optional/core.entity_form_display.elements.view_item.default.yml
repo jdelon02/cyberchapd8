@@ -1,0 +1,64 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.view_item
+    - field.field.elements.view_item.field_call_to_action
+    - field.field.elements.view_item.field_displayed_view
+    - field.field.elements.view_item.field_headline_intro
+    - field.field.elements.view_item.field_layout_width
+  module:
+    - field_layout
+    - layout_discovery
+    - link
+    - text
+    - viewsreference
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: elements.view_item.default
+targetEntityType: elements
+bundle: view_item
+mode: default
+content:
+  field_call_to_action:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_displayed_view:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: viewsreference_select
+    region: content
+  field_headline_intro:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_layout_width:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

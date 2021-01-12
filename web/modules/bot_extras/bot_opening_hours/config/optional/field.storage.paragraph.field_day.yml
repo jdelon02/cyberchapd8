@@ -1,0 +1,41 @@
+langcode: und
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_day
+field_name: field_day
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: mon
+      label: 'Mon:'
+    -
+      value: tues
+      label: 'Tues:'
+    -
+      value: wed
+      label: 'Wed:'
+    -
+      value: thurs
+      label: 'Thurs:'
+    -
+      value: fri
+      label: 'Fri:'
+    -
+      value: sat
+      label: 'Sat:'
+    -
+      value: sun
+      label: 'Sun:'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

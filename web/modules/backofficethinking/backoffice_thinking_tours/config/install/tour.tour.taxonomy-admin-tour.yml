@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - 'Tour Taxonomy Admin'
+id: taxonomy-admin-tour
+label: 'Taxonomy Admin  Tour'
+module: 'Tour Taxonomy Admin'
+routes:
+  -
+    route_name: entity.taxonomy_vocabulary.collection
+tips:
+  taxonomy-management:
+    id: taxonomy-management
+    plugin: text
+    label: 'Taxonomy Management'
+    weight: -100
+    attributes: null
+    body: 'Manage all your taxonomies from this admin screen. To edit and add vocabulary terms, click "List terms" next to any taxonomy.'
+    location: top
+  add-taxonomy:
+    id: add-taxonomy
+    plugin: text
+    label: 'Add Taxonomy'
+    weight: -100
+    attributes:
+      data-class: 'action-links a[href*="/admin/structure/taxonomy/add"]'
+    body: 'New taxonomies are added by clicking "Add Vocabulary". Note: Taxonomies used for filtering and displaying content dynamically must be configured by a Drupal developer.'
+    location: top
+  add-terms:
+    id: add-terms
+    plugin: text
+    label: 'Add terms'
+    weight: -100
+    attributes:
+      data-class: 'taxonomy-overview-vocabularies tbody tr:first-child .dropbutton-action'
+    body: 'Click the down arrow then click "Add terms" to quickly add a new term. Click "List terms" to see all terms.'
+    location: top

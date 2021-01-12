@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.alert_bar_message.field_alert_message
+  module:
+    - allowed_formats
+    - backoffice_thinking_alert_bar
+    - text
+third_party_settings:
+  allowed_formats:
+    simple: simple
+    basic_html: '0'
+    plain: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+id: alert_bar_message.alert_bar_message.field_alert_message
+field_name: field_alert_message
+entity_type: alert_bar_message
+bundle: alert_bar_message
+label: 'Alert Message'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

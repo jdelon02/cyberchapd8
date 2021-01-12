@@ -1,0 +1,33 @@
+bundle: backoffice_thinking
+excluded:
+  - eck.eck_entity_type.elements
+  - eck.eck_type.elements.link_card
+  - eck.eck_type.elements.link_card_item
+  - eck.eck_type.elements.testimonial
+  - eck.eck_type.elements.view_item
+  - core.entity_form_display.elements.link_card.default
+  - core.entity_form_display.elements.link_card_item.card_background_image
+  - core.entity_form_display.elements.link_card_item.card_stacked
+  - core.entity_form_display.elements.link_card_item.default
+  - core.entity_form_display.elements.testimonial.default
+  - core.entity_form_display.elements.view_item.default
+  - core.entity_view_display.elements.link_card.default
+  - core.entity_view_display.elements.link_card_item.card_background_image
+  - core.entity_view_display.elements.link_card_item.card_stacked
+  - core.entity_view_display.elements.link_card_item.default
+  - core.entity_view_display.elements.testimonial.default
+  - core.entity_view_display.elements.view_item.default
+  - core.entity_view_display.components.view_block.default
+  - field.field.elements.link_card.field_card_layout
+  - field.field.elements.link_card.field_link_card
+  - field.field.elements.link_card_item.field_call_to_action
+  - field.field.elements.link_card_item.field_description
+  - field.field.elements.link_card_item.field_imagee
+  - field.field.elements.testimonial.field_description
+  - field.field.elements.testimonial.field_testimonial_author
+  - field.field.elements.view_item.field_call_to_action
+  - field.field.elements.view_item.field_displayed_view
+  - field.field.elements.view_item.field_headline_intro
+  - field.field.elements.view_item.field_layout_width
+  - taxonomy.vocabulary.layout_width
+required: true

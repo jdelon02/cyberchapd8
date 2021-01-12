@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: standalone_image_paragraph
+label: 'Image or Video'
+icon_uuid: null
+icon_default: null
+description: 'Allows for creating media (image and remote video) paragraphs that can be rendered in different ways.'
+behavior_plugins: {  }

@@ -1,0 +1,13 @@
+{
+    "name": "bot_event_series",
+    "type": "drupal-module",
+    "description": "Custom Event Series Content Type",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/bot_event_series",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/bot_event_series",
+        "source": "http://cgit.drupalcode.org/bot_event_series",
+    },
+}

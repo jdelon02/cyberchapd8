@@ -1,0 +1,10 @@
+bundle: backoffice_thinking
+excluded:
+  - field.storage.node.field_tags
+  - taxonomy.vocabulary.tags
+  - views.view.listings
+  - core.entity_form_display.node.event.default
+  - core.entity_view_display.node.event.default
+  - core.entity_view_display.node.event.teaser
+  - field.field.node.event.field_photo
+required: true

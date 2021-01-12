@@ -1,0 +1,7 @@
+name: 'BOT Event Series'
+type: module
+description: 'Custom Event Series Content Type'
+core: 8.x
+package: "BackOffice Thinking Extras"
+dependencies:
+  - menu_ui

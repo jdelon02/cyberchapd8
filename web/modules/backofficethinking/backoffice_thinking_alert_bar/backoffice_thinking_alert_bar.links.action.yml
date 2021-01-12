@@ -1,0 +1,5 @@
+entity.alert_bar_message.add_form:
+  route_name: entity.alert_bar_message.add_form
+  title: 'Add Alert Bar Message'
+  appears_on:
+    - entity.alert_bar_message.collection

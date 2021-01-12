@@ -1,0 +1,39 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% if layout == 'sidebar' %}
+<div class="block block-bot-opening-hours layout-{{ layout }}">
+    <div class="wrapper-hours">
+    <div class="section-today"><span class="label-today">Today:</label> <span class="value-today">{{ today }}</span></div>
+
+    {% if show_hours %}
+      <div class="section-hours"><span class="label-hours">Hours:</label> <span class="value-hours">{{ time_open }} - {{ time_closed }}</span></div>
+    {% else %}
+
+    {% endif %}
+
+    <div class="section-status status-{{ class_status }}"><div class="message">{{ status }}</div></div>
+    </div>
+</div>
+{% else %}
+<div class="block block-bot-opening-hours layout-{{ layout }}">
+    <div class="wrapper-hours">
+    <div class="section-status status-{{ class_status }}"><div class="message">{{ status }}</div></div>
+    <div class="section-today"><span class="label-today"><span class="value-today">{{ today }}</span></div>
+
+    {% if show_hours %}
+      <div class="section-hours"><span class="label-hours">We're Open:</label> <span class="value-hours">{{ time_open }} - {{ time_closed }}</span></div>
+    {% else %}
+
+    {% endif %}
+
+    </div>
+</div>
+{% endif %}

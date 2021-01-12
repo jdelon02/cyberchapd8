@@ -1,0 +1,20 @@
+name: 'Callout Component and Elements'
+type: module
+core: 8.x
+dependencies:
+  - button_link
+  - ds
+  - eck
+  - entity_browser_entity_form
+  - entity_class_formatter
+  - field
+  - field_group
+  - field_layout
+  - layout_discovery
+  - link
+  - media
+  - media_library
+  - taxonomy
+  - text
+version: 8.x-1.0
+package: 'BackOffice Thinking'

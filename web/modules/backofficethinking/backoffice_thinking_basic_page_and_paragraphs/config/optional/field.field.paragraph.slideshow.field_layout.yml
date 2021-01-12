@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_layout
+    - paragraphs.paragraphs_type.slideshow
+  module:
+    - entity_reference_display
+id: paragraph.slideshow.field_layout
+field_name: field_layout
+entity_type: paragraph
+bundle: slideshow
+label: Layout
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: full_width
+default_value_callback: ''
+settings:
+  exclude:
+    full_width: full_width
+    wide_width: wide_width
+  negate: 1
+field_type: entity_reference_display

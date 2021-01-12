@@ -1,0 +1,94 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.basic_title
+    - field.field.node.page.body
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_page_options
+    - field.field.node.page.field_paragraphs
+    - field.field.node.page.field_title_banner_button
+    - field.field.node.page.field_title_banner_headline
+    - field.field.node.page.field_title_banner_media
+    - node.type.page
+  module:
+    - ds
+    - entity_reference_revisions
+    - field_layout
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  ds:
+    layout:
+      id: bs_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - node_title
+        - body
+        - field_paragraphs
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          wrapper: h1
+          class: text-center
+          link: false
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+id: node.page.basic_title
+targetEntityType: node
+bundle: page
+mode: basic_title
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    region: main
+    settings: {  }
+    third_party_settings: {  }
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    region: main
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+hidden:
+  field_meta_tags: true
+  field_page_options: true
+  field_title_banner_button: true
+  field_title_banner_headline: true
+  field_title_banner_media: true
+  links: true

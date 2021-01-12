@@ -1,0 +1,46 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.alert_bar_message.alert_bar_message.field_alert_message
+    - field.field.alert_bar_message.alert_bar_message.field_currently_active
+  module:
+    - backoffice_thinking_alert_bar
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: alert_bar_message.alert_bar_message.default
+targetEntityType: alert_bar_message
+bundle: alert_bar_message
+mode: default
+content:
+  field_alert_message:
+    weight: 1
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_currently_active:
+    weight: 2
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  user_id: true

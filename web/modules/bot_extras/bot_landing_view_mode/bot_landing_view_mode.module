@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Contains bot_landing_view_mode.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bot_landing_view_mode_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bot_landing_view_mode module.
+    case 'help.page.bot_landing_view_mode':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('BOT View Mode Automatic Set') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function bot_landing_view_mode_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ( in_array($form_id, ['node_landing_form', 'node_page_form']) ) {
+    //dpm($form['ds_switch_view_mode']['ds_switch']);
+    $entity = $form_state->getFormObject()->getEntity();
+    if ($entity->isNew()) {
+      $entity->ds_switch->value = 'view_mode_selector';
+    }
+  }
+}

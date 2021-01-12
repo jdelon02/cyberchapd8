@@ -1,0 +1,22 @@
+name: 'Views Block Component and Elements'
+type: module
+core: 8.x
+dependencies:
+  - better_exposed_filters
+  - button_link
+  - ds
+  - eck
+  - entity_class_formatter
+  - field
+  - field_layout
+  - inline_entity_form
+  - layout_discovery
+  - link
+  - node
+  - taxonomy
+  - text
+  - user
+  - views
+  - viewsreference
+version: 8.x-1.0
+package: 'BackOffice Thinking'
