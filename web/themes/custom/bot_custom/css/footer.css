@@ -1,0 +1,68 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+/**********footer********/
+footer.footer {
+    margin: 50px 0 0;
+    border: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100%;
+    background: #196fe3;
+}
+.footcolumns {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footcolumns * {
+    color: #fff;
+}
+footer nav ul {
+/*    vertical nav menu*/
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+footer .navbar-nav > li > a {
+    padding: 0 0 5px !important;
+}
+footer .navbar-nav > li {
+    margin: 0;
+}
+
+/*force second col to be 8*/
+
+@media screen and (min-width:768px) {
+    .region-footer-two {
+        display: flex;
+    }
+    .region-footer-two > nav,
+    .region-footer-two > section {
+        width: 25%;
+    }
+    .footcolumns .footsy:nth-child(2) {
+        width: 66.66666667%;
+    }
+}
+footer nav li a.strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+footer nav li a {
+    padding: 1px 0 !important;
+}
+footer nav li a:hover {
+    color: #e1e1e1;
+}
+@media screen and (max-width:768px) {
+    .footcolumns * {
+        clear:both;
+        text-align: center;
+        float: none !important;
+        padding-bottom: 2px;
+    }
+}

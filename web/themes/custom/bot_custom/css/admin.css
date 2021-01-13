@@ -1,0 +1,211 @@
+/* TOUR CSS */
+#toolbar-tab-tour button {
+    background: #196fe3;
+    color: #fff;
+}
+#toolbar-tab-tour button:hover {
+    background-color: #004fc3; 
+}
+.toolbar-icon.toolbar-icon-help.toolbar-item::before {
+    filter: brightness(100);
+    opacity: .8;
+}
+/* TOUR TIPS */
+.joyride-tip-guide {
+    position: fixed;
+    z-index: 9999999;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    transition: none;
+    -webkit-transition: none;
+}
+.tour-progress {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    margin: 0 !important;
+}
+.tour-tip-label {
+    font-size: 18px;
+}
+a.joyride-next-tip {
+    color: #196fe3;
+    border-bottom: 1px solid #196fe3;
+}
+.joyride-content-wrapper {
+    position: relative;
+    padding: 20px 50px 20px 20px;
+    background: #fff;
+}
+.joyride-tip-guide:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.2);
+    z-index: 0;
+}
+
+/* Tour arrow that points up */
+/* 
+.joyride-content-wrapper:before {
+    content: "";
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    position: absolute;
+    top: -8px;
+    left: 15px;
+}
+ */
+
+/* Tour arrow that points down */
+/* 
+.joyride-content-wrapper[aria-labelledby="tour-tip-edit-a-page-label"]:before {
+    content: "";
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    border-bottom: initial;
+    position: absolute;
+    bottom: -8px;
+    left: 15px;
+    top: unset
+}
+ */
+
+/**
+ * @file
+ * Styles for Tour theme.
+ */
+
+/* Default styles for the container */
+.joyride-tip-guide {
+  /* color: #fff; */
+  border-radius: 5px;
+  background: #000;
+  background: rgba(0, 0, 0, 1);
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .joyride-tip-guide {
+    border-radius: 0;
+  }
+}
+
+/* Add a little css triangle pip, older browser just miss out on the fanciness of it. */
+div.joyride-tip-guide .joyride-nub {
+  border: solid 14px #fff;
+}
+div.joyride-tip-guide .joyride-nub.top {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+div.joyride-tip-guide .joyride-nub.bottom {
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+div.joyride-tip-guide .joyride-nub.right {
+  border-top-color: transparent;
+  border-right-color: transparent; /* LTR */
+  border-bottom-color: transparent;
+}
+[dir="rtl"] .joyride-tip-guide .joyride-nub.right {
+  border-right-color: rgba(0, 0, 0, 0.8);
+  border-left-color: transparent;
+}
+div.joyride-tip-guide .joyride-nub.left {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent; /* LTR */
+}
+[dir="rtl"] .joyride-tip-guide .joyride-nub.left {
+  border-right-color: transparent;
+  border-left-color: rgba(0, 0, 0, 0.8);
+}
+div.joyride-tip-guide .joyride-nub.top-right {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+/* Typography */
+.joyride-tip-guide h2 {
+  /* color: #fff; */
+}
+.joyride-tip-guide p {
+  line-height: 1.385em;
+}
+.joyride-tip-guide a {
+  /* color: #fff; */
+}
+
+/* Button Style */
+.joyride-tip-guide .joyride-next-tip {
+  margin: 0;
+}
+.joyride-timer-indicator-wrap {
+  border: solid 1px rgba(255, 255, 255, 0.1);
+}
+.joyride-timer-indicator {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.joyride-close-tip {
+  text-decoration: none;
+  /* color: rgba(255, 255, 255, 0.4); */
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.joyride-close-tip:hover,
+.joyride-close-tip:focus {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.joyride-modal-bg {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.joyride-expose-wrapper {
+  background-color: #fff;
+}
+
+.joyride-expose-cover {
+  background: transparent;
+}
+
+.joyride-tip-guide .joyride-nub.top {
+  top: -24px;
+  bottom: auto;
+}
+
+.joyride-tip-guide .joyride-nub.bottom {
+  bottom: -24px;
+}
+
+.joyride-tip-guide .joyride-nub.right {
+  top: 22px;
+  right: -24px;
+  bottom: auto;
+  left: auto;
+}
+
+.joyride-tip-guide .joyride-nub.left {
+  top: 22px;
+  right: auto;
+  bottom: auto;
+  left: -24px;
+}
+
+div.joyride-tip-guide,
+div.joyride-tip-guide h2,
+div.joyride-tip-guide a {
+    color: initial;
+}
+/* END TOUR CSS */
+

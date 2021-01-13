@@ -1,0 +1,30 @@
+.wide-width {
+	width: 80vw;
+    margin-left: calc(50% - 40vw);
+    margin-right: calc(50% - 80vw);
+}
+.full-width {
+	margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    width: 100vw;
+}
+.embed-container,
+.field--name-field-media-oembed-video {
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+	margin-bottom: 20px;
+} 
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed,
+.field--name-field-media-oembed-video iframe { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+}

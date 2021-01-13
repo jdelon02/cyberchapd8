@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap');
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+/*THEME COLORS:
+BLACK = #000;
+BLUE = #196fe3;
+DARK GRAY = #373737;
+*/
+
+/**********global********/
+html {
+    font-size: 16px;  /*default font size*/
+    
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; /*set site font size to 16px = 1rem*/
+    line-height: 1.85;
+    overflow-x: hidden;
+    color: #373737;
+    margin-top: 0;
+}
+* {
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s
+}
+a {
+    color: #000;
+    overflow-wrap: break-word;
+}
+strong {
+    font-weight: 700;
+}
+a:focus, a:hover {
+    color: #196fe3;
+    text-decoration: none;
+}
+p, p:last-child {
+    margin-bottom: 20px;
+}
+/*nav*/
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-bottom: 20px; 
+/*    bootstrap override*/
+}
+
+h1 {
+    font-size: 50px;
+    font-size: 3.125rem
+}
+h2 {
+    font-size: 39px;
+    font-size: 2.4375rem;
+}
+h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 22px;
+    font-size: 1.375rem;
+}
+h5 {
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+h6 {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+blockquote {
+    border: none;
+    color: #196fe3;
+    font-size: 1.375rem;
+    padding: 20px 0;
+    margin: 0;
+}
+.highlighted {
+     clear: both;
+}
+
+/*buttons*/
+.btn-default {
+    background-color:#196fe3;
+    border-color: #196fe3;
+    color: #fff;
+    min-width: 100px;
+    padding: 10px 15px;
+}
+.menu--account .btn-default {
+    color: #fff !important;
+    padding: 10px 15px !important;
+    text-align: center;
+}
+.btn-default:hover {
+    background-color:#0b4ea8;
+    border-color: #0b4ea8;
+    color: #fff;
+}
+.menu--account .btn-default:before {
+    display: none;
+}
+.menu--account .btn-default:hover {
+    background-color:#0b4ea8 !important;
+    border-color: #0b4ea8 !important;
+    color: #fff !important;
+}
+.btn {
+    font-weight: 500 !important;
+}
+.btn-primary {
+    background-color: #196fe3;
+    border-color: #196fe3;
+}
+
+/*link-overlay*/
+.link-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 0;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+.link-overlay a {
+    width:100%;
+    height: 100%;
+    display: block;
+}
+.more-link {
+    display: inline;
+}
+.main-container {
+    min-height: 50vh;
+}
+/**********end global********/
+
+/* MAINTENANCE MODE */
+.maintenance-page .name.navbar-brand {
+    display: none;
+}
+.maintenance-page .navbar-header {
+    width: 100%;
+    text-align: center;
+}
+.maintenance-page .logo.navbar-btn.pull-left {
+    float: none !important;
+    display: inline-block;
+    padding: 0;
+}
+.maintenance-page .main-container.container {
+    width: 95% !important;
+    text-align: center;
+    padding-top: 5vw !important;
+}
+body.maintenance-page {
+    background: #f1f1f1;
+}
+.label{
+	color: initial;
+}
+
+/*logged in edit options*/
+nav.tabs {
+    position: fixed;
+    bottom: 0;
+    background: #999;
+    z-index: 100000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: initial;
+    left: 0;
+}
+nav.tabs ul li a {
+    color:#000;
+}
+nav.tabs ul {
+    border-top: solid 1px #2d2d2d;
+    padding-left: 50px;
+}
+
+/* LOGIN SCREEN */
+body.path-user {
+    background-color: #f1f1f1;
+}
+.path-user .navbar.container{
+	margin-bottom: 50px;
+}
+.user-login-form {
+    max-width: 580px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 0 3px 30px -1px rgba(0,0,0,.15);
+}
