@@ -1,0 +1,10 @@
+uuid: 42fd31d7-06dc-40e8-a84f-1fd0877dfd6d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: O5MHvzL7mQ6nidHnQVev7DnzWZFnHgxQ0lmgTLdz5_c
+name: 'Layout Width - Text'
+vid: layout_width_text
+description: 'Layout width options for text areas'
+weight: 0

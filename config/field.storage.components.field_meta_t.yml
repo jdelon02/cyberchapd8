@@ -1,0 +1,21 @@
+uuid: 0785af75-0b8e-4cfb-8627-2b0afd9b1a38
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - metatag
+_core:
+  default_config_hash: rWBs-3wMS1rzskBmi8lBn02wmge-1G281R0kJlYhTUA
+id: components.field_meta_t
+field_name: field_meta_t
+entity_type: components
+type: metatag
+settings: {  }
+module: metatag
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

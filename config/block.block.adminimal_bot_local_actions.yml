@@ -1,0 +1,20 @@
+uuid: 68644c85-1c38-4d95-9c92-d9c6e1260322
+langcode: en
+status: true
+dependencies:
+  theme:
+    - adminimal_bot
+_core:
+  default_config_hash: 73Lqp8Yciij2BpS9BY8vcyT3y0JpQ5xQdDSagwdyHhA
+id: adminimal_bot_local_actions
+theme: adminimal_bot
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

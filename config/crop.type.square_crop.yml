@@ -1,0 +1,14 @@
+uuid: a913b986-42eb-4fac-ad03-845c2a2c18a4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HPr8yENlym_C7rChXYx-IHFnCetdC5NxXypBuuPDE7c
+id: square_crop
+label: 'Square Crop'
+description: 'Meant for images that should be cropped and rendered in a 1:1 ratio.'
+aspect_ratio: '1:1'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: 960
+hard_limit_height: 960

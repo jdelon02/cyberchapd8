@@ -1,0 +1,25 @@
+uuid: d0b1ffe4-6e42-49a4-9860-2d088691e0b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title_banner_button
+    - node.type.page
+  module:
+    - link
+_core:
+  default_config_hash: 708lSGvpn4Swizx5TrdNPXds0n4qPn_Qd1AiuenP1FY
+id: node.page.field_title_banner_button
+field_name: field_title_banner_button
+entity_type: node
+bundle: page
+label: 'Title Banner Button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

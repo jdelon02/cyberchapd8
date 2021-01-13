@@ -1,0 +1,21 @@
+uuid: da1a4f7c-6d16-4e28-8c86-fba2084e2cee
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.callout
+    - field.storage.components.field_subheadline
+_core:
+  default_config_hash: HmPmNQyJy90ePRXbUEEG7pw8O5laPhAMn4bezTRRfdM
+id: components.callout.field_subheadline
+field_name: field_subheadline
+entity_type: components
+bundle: callout
+label: Subheadline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

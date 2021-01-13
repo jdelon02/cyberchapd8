@@ -1,0 +1,23 @@
+uuid: 23514ccf-4c7a-405c-80c3-e8b51026dd1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.slide
+  module:
+    - text
+_core:
+  default_config_hash: zcpyIBvlQCvQn2D9tHloFocDlyTPBaOEXaVRCScC6R8
+id: paragraph.slide.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: slide
+label: Description
+description: 'Limit text to 15 to 20 words.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

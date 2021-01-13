@@ -1,0 +1,21 @@
+uuid: 7079eee5-bcc6-4781-86a2-78749afde2cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: WiPJrsd79_toXKiUkcwnI5C4AvhU0KQ-H5zRSMU6i80
+id: elements.field_link_card
+field_name: field_link_card
+entity_type: elements
+type: entity_reference
+settings:
+  target_type: elements
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

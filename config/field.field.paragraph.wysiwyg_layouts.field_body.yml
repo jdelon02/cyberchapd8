@@ -1,0 +1,23 @@
+uuid: 789e4961-3e48-421c-af55-91867d120a0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.wysiwyg_layouts
+  module:
+    - text
+_core:
+  default_config_hash: s9oiUyKEdYxmCR6Xw1VocIqgiFuv0OtDFVMdP_vCTyc
+id: paragraph.wysiwyg_layouts.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: wysiwyg_layouts
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

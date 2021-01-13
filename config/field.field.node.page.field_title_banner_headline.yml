@@ -1,0 +1,21 @@
+uuid: d20f0ff5-3ea3-4ac5-838a-a244e430470c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title_banner_headline
+    - node.type.page
+_core:
+  default_config_hash: c0YSvWxpTfmFWShuttT_PNswm1wxb3ITpz7XUgi4K48
+id: node.page.field_title_banner_headline
+field_name: field_title_banner_headline
+entity_type: node
+bundle: page
+label: 'Title Banner Headline'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+uuid: e0b51af5-0348-4ce6-b8c9-cd76d1047c7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.components
+_core:
+  default_config_hash: RFTr_zCmgKSYbWuIYeiHBTjkF2QhC6tGa6Eq9MBFQm4
+type: simple_title_and_body
+name: Text
+description: 'Headline display is optional, body allows for simple html.'

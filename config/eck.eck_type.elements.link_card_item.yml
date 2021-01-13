@@ -1,0 +1,11 @@
+uuid: 2de8f9b3-fd1b-4b6c-aa64-72abad5c7629
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.elements
+_core:
+  default_config_hash: Xm_g3tQrfTouoIszl6gFZwDuSCAZV181CAlBs-xa0sw
+type: link_card_item
+name: 'Link Card Item'
+description: ''

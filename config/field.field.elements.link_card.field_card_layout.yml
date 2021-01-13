@@ -1,0 +1,27 @@
+uuid: f15ad643-e018-4fcc-b047-0e2c1ce4efc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.link_card
+    - field.storage.elements.field_card_layout
+  module:
+    - entity_reference_display
+_core:
+  default_config_hash: 6Q2HDj96nsurrVNL63Z2jWyqdDuzCu5QFnBM1g1pfgA
+id: elements.link_card.field_card_layout
+field_name: field_card_layout
+entity_type: elements
+bundle: link_card
+label: 'Card Layout'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  exclude:
+    card_background_image: card_background_image
+    card_stacked: card_stacked
+  negate: 1
+field_type: entity_reference_display

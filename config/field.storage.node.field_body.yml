@@ -1,0 +1,22 @@
+uuid: 800250d3-8169-4216-8745-7b562ec8b127
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - node
+_core:
+  default_config_hash: jaoFpOx60ubhNjO_nBXSLa8hSSxmK2n4IDJpFVnux_I
+id: node.field_body
+field_name: field_body
+entity_type: node
+type: entity_reference
+settings:
+  target_type: components
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

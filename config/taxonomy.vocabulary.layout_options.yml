@@ -1,0 +1,10 @@
+uuid: 0b106011-1540-4365-829b-6d51dbc9760b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8OsbUcoPulrXCy40Cy3rGgSank0VcCZwEu1SCiq1WMo
+name: 'Layout Options'
+vid: layout_options
+description: ''
+weight: 0

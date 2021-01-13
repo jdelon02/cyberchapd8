@@ -1,0 +1,21 @@
+uuid: 00067993-8bbf-4602-8a1b-b8a4f3528f5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: 0_8I9lVmBeSNFLfQv1bW_3794RE8tdktNVzfHehtxlw
+id: node.field_title_banner_button
+field_name: field_title_banner_button
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

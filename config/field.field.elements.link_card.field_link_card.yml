@@ -1,0 +1,30 @@
+uuid: 48e2b3b3-6a3a-4476-8f5b-381a8686f8ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.link_card
+    - eck.eck_type.elements.link_card_item
+    - field.storage.elements.field_link_card
+_core:
+  default_config_hash: cWKFH7HcRYhm3t5koU_v3EDQer81RhtGE6vQTBVPYJc
+id: elements.link_card.field_link_card
+field_name: field_link_card
+entity_type: elements
+bundle: link_card
+label: 'Link Card'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:elements'
+  handler_settings:
+    target_bundles:
+      link_card_item: link_card_item
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: link_card
+field_type: entity_reference

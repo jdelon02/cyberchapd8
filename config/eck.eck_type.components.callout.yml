@@ -1,0 +1,11 @@
+uuid: 8a8cdcd3-435f-412f-9313-e982ef47c463
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.components
+_core:
+  default_config_hash: wgdPzdqajfl41dKh8YyyXtTZamlLniwb_tjIAM6Ca5A
+type: callout
+name: Callout
+description: 'Callout section with image left, right, or all items centered.'

@@ -1,0 +1,12 @@
+uuid: 0b352fbf-1a87-4b6e-aa3f-ab0e7d11310b
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: zq5g3Wkw27708kYc6pB_0l6Pmp7cG230mtOgHlWLjZE
+id: elements.card_stacked
+label: 'Card Stacked'
+targetEntityType: elements
+cache: true

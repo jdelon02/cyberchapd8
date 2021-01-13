@@ -1,0 +1,21 @@
+uuid: 5311ea40-bf0c-4891-90e3-2033013f9792
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - link
+_core:
+  default_config_hash: q-bcd37GX-3MFqbxmw7__EgwMMBDG03b_mciBokAhXA
+id: elements.field_call_to_action
+field_name: field_call_to_action
+entity_type: elements
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

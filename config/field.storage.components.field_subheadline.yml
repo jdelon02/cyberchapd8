@@ -1,0 +1,23 @@
+uuid: 264df32a-115a-4409-8442-07783162657e
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: OjmN2m3N9UWewUHFG2QnrFmUM0kuTLqgge61xXCoPyg
+id: components.field_subheadline
+field_name: field_subheadline
+entity_type: components
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,17 @@
+uuid: 3b585dec-1b48-480f-af75-994a2c528750
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: w02C_we3BZZXB85E8GC2p0cuF6wxp8BqoXse7KZJWy8
+name: fp_widescreen_1920x1080
+label: 'FP Widescreen (1920x1080)'
+effects:
+  f63acf99-3307-405c-8970-d6cf6f3c2f90:
+    uuid: f63acf99-3307-405c-8970-d6cf6f3c2f90
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 1920
+      height: 1080
+      anchor: center-center

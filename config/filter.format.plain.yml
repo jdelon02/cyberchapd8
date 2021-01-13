@@ -1,0 +1,19 @@
+uuid: 88337404-cbfe-469b-b538-9a70e00fccb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - token_filter
+_core:
+  default_config_hash: DvRAUv-oJ7ECzYT6R1qbqbEgoqwMq95NMaWB-Pkz0QQ
+name: Plain
+format: plain
+weight: 0
+filters:
+  token_filter:
+    id: token_filter
+    provider: token_filter
+    status: false
+    weight: 0
+    settings:
+      replace_empty: '0'

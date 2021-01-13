@@ -1,0 +1,12 @@
+uuid: 04771965-a625-47ea-9ea0-dd7fc3785711
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JxwJI93QgFJ1ATDflXHszRfeO25kC0_FTv__SOxyzj4
+id: node.basic_title
+label: 'Basic Title'
+targetEntityType: node
+cache: true

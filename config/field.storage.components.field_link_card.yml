@@ -1,0 +1,21 @@
+uuid: 00673bf2-aa98-4b2b-a4ed-2dd8ff471edc
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: Tjgg2ETpcBE8Bwn14ZBxrHdeuYbf1RR57V7qM1iQVx4
+id: components.field_link_card
+field_name: field_link_card
+entity_type: components
+type: entity_reference
+settings:
+  target_type: elements
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

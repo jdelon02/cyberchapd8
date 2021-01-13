@@ -1,0 +1,21 @@
+uuid: 78702fcd-e8c4-4f53-a0ab-5458a21a4af3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - view_mode_selector
+_core:
+  default_config_hash: eYj9X5jVVZdHaQ6sLbXepYpx4YHT9JCWJdCBtqf3nSI
+id: node.field_page_options
+field_name: field_page_options
+entity_type: node
+type: view_mode_selector
+settings: {  }
+module: view_mode_selector
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

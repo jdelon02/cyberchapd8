@@ -1,0 +1,21 @@
+uuid: 54de8588-d28b-4ec8-8a71-21cb9532eb4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - entity_reference_display
+_core:
+  default_config_hash: FWcG9UJ4HkflduI4dGRLSwvP9tpLkko_ZwXcb_WjED4
+id: elements.field_card_layout
+field_name: field_card_layout
+entity_type: elements
+type: entity_reference_display
+settings: {  }
+module: entity_reference_display
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

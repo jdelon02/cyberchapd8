@@ -1,0 +1,17 @@
+uuid: 5492f594-81f4-4d0b-ad80-4a83c9cc54fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: vqTar_H0DkKfOr5OK3EaDMQa6OYQTsLQf_67xRuXBVs
+id: slideshow
+label: Slideshow
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,14 @@
+uuid: 98ef423e-47be-41b8-b612-c21fc50d0f54
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xTPuS36AIFHrP8IJXwNCz-9nlN_gSfAUWlYR0S0QVBw
+id: portrait_crop
+label: 'Portrait Crop'
+description: 'Meant for images that should be cropped and rendered in 3:4 ratio.'
+aspect_ratio: '3:4'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: 720
+hard_limit_height: 960

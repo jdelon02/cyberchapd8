@@ -1,0 +1,32 @@
+uuid: 6bd6fd2f-40ea-4eb2-8c7d-a083e1f7b431
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title_banner_media
+    - media.type.image
+    - media.type.remote_video
+    - node.type.landing
+_core:
+  default_config_hash: '-RX0YPK013VvB_CwomedaSQu0-9ycmCuz633SyH9KCM'
+id: node.landing.field_title_banner_media
+field_name: field_title_banner_media
+entity_type: node
+bundle: landing
+label: 'Title Banner Media'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      remote_video: remote_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

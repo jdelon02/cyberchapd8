@@ -1,0 +1,17 @@
+uuid: 965af8e6-9ce8-4116-8f5f-b45a31c8194f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: dGorYF40KIrhFypOhgLulYzT_cP8-39-e2lrMuz5Pzk
+id: image_grid
+label: 'Image Grid'
+icon_uuid: null
+icon_default: null
+description: 'Responsive grid layout that adjusts at different viewport widths.'
+behavior_plugins: {  }

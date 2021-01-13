@@ -1,0 +1,12 @@
+uuid: b8092566-f842-4443-804d-e32ddebba52c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: aY1D3WPVBS8FBzXYLqo89wQtQRLGje9AD0doUMynNmQ
+id: paragraph.image_50_right
+label: 'Image 50% Right'
+targetEntityType: paragraph
+cache: true

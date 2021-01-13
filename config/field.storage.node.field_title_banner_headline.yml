@@ -1,0 +1,23 @@
+uuid: 5beaa7b0-79b2-42c7-a4b2-2a9f0e2e5d9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: IDmlvy8nKFCTjt3vczC6NKcn735ruiEZYewJuc_QWvk
+id: node.field_title_banner_headline
+field_name: field_title_banner_headline
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
