@@ -1,0 +1,20 @@
+uuid: 492f7de1-a3fc-4072-9e50-c989713d817e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 6xDd0rHkGCuUrgJnWlUfVAY6xtlcyOo-Iwkk4_y9WFI
+name: Resource
+type: resource
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

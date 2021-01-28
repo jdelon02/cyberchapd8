@@ -1,0 +1,10 @@
+uuid: 8c6ea6b9-ca29-4f3b-875b-0d60647063cb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ffBjgARmZIESG6aHeFMwKhAqvGJcidmDJ7EUfUZM970
+name: 'Layout Width'
+vid: layout_width
+description: ''
+weight: 0

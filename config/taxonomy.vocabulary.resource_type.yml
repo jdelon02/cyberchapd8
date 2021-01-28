@@ -1,0 +1,10 @@
+uuid: d4ca27a5-d9a7-446d-9aec-8b3fd93da860
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BTZPz5mbC5PgYDw-xPOjg7AAbRNaQ1ih5ide42OkOQA
+name: 'Resource Type'
+vid: resource_type
+description: ''
+weight: 0

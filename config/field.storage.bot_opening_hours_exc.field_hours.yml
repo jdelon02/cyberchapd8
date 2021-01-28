@@ -1,0 +1,21 @@
+uuid: e6b0f498-dfd3-4c8f-bd51-2ae12e8c2878
+langcode: en
+status: true
+dependencies:
+  module:
+    - bot_opening_hours
+    - time_field
+_core:
+  default_config_hash: Yp1KnRa2OLJlVUK4JxgGavbxNi_G9yT7ibULOcpbuQQ
+id: bot_opening_hours_exc.field_hours
+field_name: field_hours
+entity_type: bot_opening_hours_exc
+type: time_range
+settings: {  }
+module: time_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

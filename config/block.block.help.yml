@@ -1,0 +1,31 @@
+uuid: 4e3a6928-ad81-447d-8826-535f6debaefc
+langcode: en
+status: true
+dependencies:
+  module:
+    - context
+    - help
+  theme:
+    - bot_custom
+id: help
+theme: bot_custom
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: visible
+visibility:
+  request_path_exclusion:
+    id: request_path_exclusion
+    pages: ''
+    negate: null
+    context_mapping: {  }
+  view_inclusion:
+    id: view_inclusion
+    negate: null
+    view_inclusion: {  }
+    context_mapping: {  }

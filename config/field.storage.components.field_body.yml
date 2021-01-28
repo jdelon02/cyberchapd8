@@ -1,0 +1,21 @@
+uuid: e3e93d58-132a-4790-a628-e3b984c594ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - text
+_core:
+  default_config_hash: T3eBLWRf82IsQzkfokb16cG8ai631xocI0ROoByocZ0
+id: components.field_body
+field_name: field_body
+entity_type: components
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: c2453ec7-641a-4c70-bf3f-fc12a4f22d77
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bot_custom
+_core:
+  default_config_hash: 3y2b93-u1CUz5yFVkZsUhFyI9hGFrC3GaHmY7ZqreP4
+id: bot_custom_breadcrumbs
+theme: bot_custom
+region: header
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

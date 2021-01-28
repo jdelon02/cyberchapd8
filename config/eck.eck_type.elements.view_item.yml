@@ -1,0 +1,11 @@
+uuid: 16c7bcd5-498a-4466-a3bf-4bb1bd14514e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.elements
+_core:
+  default_config_hash: Iq7wgK2kp9v6w1zyWfjT5fBEYycCmkIjIuW6Rg-zITk
+type: view_item
+name: 'View Item'
+description: ''

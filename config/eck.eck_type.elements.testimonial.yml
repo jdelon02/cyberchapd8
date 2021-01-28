@@ -1,0 +1,11 @@
+uuid: 8d87e547-fc54-4623-beca-1b7719207dfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.elements
+_core:
+  default_config_hash: 9nDW3Tbh-hr5IAa3O-1eTQVEMy6tKKBRZzZlDaViFqA
+type: testimonial
+name: Testimonial
+description: 'This is the testimonial item'

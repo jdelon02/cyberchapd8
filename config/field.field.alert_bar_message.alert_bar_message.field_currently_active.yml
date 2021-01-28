@@ -1,0 +1,26 @@
+uuid: f97ccf19-d2a7-4b40-bf57-d956071a6af6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.alert_bar_message.field_currently_active
+  module:
+    - backoffice_thinking_alert_bar
+_core:
+  default_config_hash: NdHh5qExkT-Yw3bMWdWTkH1GmWlnq1nlubzcevwOq7E
+id: alert_bar_message.alert_bar_message.field_currently_active
+field_name: field_currently_active
+entity_type: alert_bar_message
+bundle: alert_bar_message
+label: 'Currently Active'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

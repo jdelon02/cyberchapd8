@@ -1,0 +1,22 @@
+uuid: 20a86780-9bf7-406c-a578-d4e1ff52b95e
+langcode: en
+status: true
+dependencies:
+  module:
+    - bot_opening_hours
+    - text
+_core:
+  default_config_hash: UDDYoeErPMxW8XF14yZkyoFiFcQR9dqH_dvJImhUDsg
+id: bot_opening_hours_exc.field_message
+field_name: field_message
+entity_type: bot_opening_hours_exc
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

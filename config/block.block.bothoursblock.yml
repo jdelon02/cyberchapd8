@@ -1,0 +1,23 @@
+uuid: dba24eea-b72a-460a-8f50-339e78a85273
+langcode: en
+status: false
+dependencies:
+  module:
+    - bot_opening_hours
+  theme:
+    - bot_custom
+_core:
+  default_config_hash: otSEQEtNTPp4H14TRk_EwCMTOBLYNGmrXZx00vdNO-c
+id: bothoursblock
+theme: bot_custom
+region: navigation
+weight: 0
+provider: null
+plugin: bot_hours_block
+settings:
+  id: bot_hours_block
+  label: 'BOT Hours Block'
+  provider: bot_opening_hours
+  label_display: visible
+  layout: sidebar
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 59768a9c-dbb5-4b3c-827f-f17f9a8d5cba
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: 4ZVFy3T27gTltFjNkYYVQqLhLebTtNkWphtmeawMDIg
+id: node.field_resource_links
+field_name: field_resource_links
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

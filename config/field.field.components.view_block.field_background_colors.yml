@@ -1,0 +1,31 @@
+uuid: 9a337d98-7d4b-4d51-9c18-75148e21aeb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.view_block
+    - field.storage.components.field_background_colors
+    - taxonomy.vocabulary.theme_colors
+_core:
+  default_config_hash: gzIQexb7B8TZZCx7OJN70uNpUFJnJ6kwhrxiTtydHoQ
+id: components.view_block.field_background_colors
+field_name: field_background_colors
+entity_type: components
+bundle: view_block
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      theme_colors: theme_colors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 1602785f-8959-46fd-af15-078dac4545f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.callout
+    - field.storage.components.field_media_caption
+  module:
+    - text
+_core:
+  default_config_hash: h3yC8_BAfcm8JNHhvO_LquF63zRd0HkJU-U8VpUllw0
+id: components.callout.field_media_caption
+field_name: field_media_caption
+entity_type: components
+bundle: callout
+label: 'Media Caption'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

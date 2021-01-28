@@ -1,0 +1,31 @@
+uuid: 68a1627c-0dfe-453f-8e94-92ca4611ac83
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.callout
+    - field.storage.components.field_layout
+    - taxonomy.vocabulary.layout_options
+_core:
+  default_config_hash: eqANnRdQY-P3Hj-KVftPOq-8UlI9tZhQbSq_BgbriPo
+id: components.callout.field_layout
+field_name: field_layout
+entity_type: components
+bundle: callout
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      layout_options: layout_options
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

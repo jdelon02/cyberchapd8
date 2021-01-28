@@ -12,12 +12,29 @@
 # Ignore Drupal's file directory
 web/sites/default/files
 
+# un-ignore section
+!vendor/civicrm/civicrm-core/packages
+!vendor/civicrm/civicrm-core/bower_components
+
+# Some Random files that don't need to be in repo.
+web/.htaccessold
+web/phpinfo.php
+whereami.php
+
+# Don't need the Acme challenge in repo.  
+# Should be changed for each non-pantheon enviro anyway.
+web/.well-known
+web/.well-known/*
+
+
 # Pantheon commits a settings.php for environment-specific settings.
 # Place local settings in settings.local.php
 web/sites/*/settings.local.php
+web/sites/*/settings.eapps.php
 web/sites/*/services*.yml
 !web/sites/*/services.pantheon.*.yml
 !web/sites/*/services.yml
+!web/sites/*/services.eapps.yml
 
 # Ignore SimpleTest multi-site environment.
 web/sites/simpletest
@@ -57,3 +74,10 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+
+# Eapps related
+# web/.htaccess
+# web/.well-known
+# web/.well-known/*
+# web/phpinfo.php
+# whereami.php

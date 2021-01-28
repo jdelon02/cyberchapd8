@@ -1,0 +1,30 @@
+uuid: 2806982b-cb88-4109-be53-6117ec59991c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo
+    - media.type.image
+    - node.type.article
+_core:
+  default_config_hash: PiE84pRjcL30uupqWExwYH7gIbfH1cuw8FM4BoqrMIs
+id: node.article.field_photo
+field_name: field_photo
+entity_type: node
+bundle: article
+label: Photo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

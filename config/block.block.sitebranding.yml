@@ -1,0 +1,25 @@
+uuid: 04df8795-7fbc-4e0a-8062-1540ac5469a8
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bot_custom
+_core:
+  default_config_hash: tJk0O3zPmWlilH4MRhz7yIZf8UbSugv_HZg_jFGFhQg
+id: sitebranding
+theme: bot_custom
+region: footer_one
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

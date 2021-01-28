@@ -1,0 +1,22 @@
+uuid: bd4f6035-2a85-4050-9f90-ffe6ef3a146e
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - media
+_core:
+  default_config_hash: IiraP2o0fuNX9GB8XWMV1bjHQGh3rhPoKtSd45Y71dE
+id: elements.field_imagee
+field_name: field_imagee
+entity_type: elements
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

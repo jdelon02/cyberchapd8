@@ -1,0 +1,31 @@
+uuid: 1eb7ab6c-2bf9-4c2a-9d1d-9d57e2b2d931
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu---work
+  module:
+    - menu_block
+  theme:
+    - bot_custom
+_core:
+  default_config_hash: 4RR503KWqqjp1YkYArfB1nBZKHeEb6LUZn0Nwqp-KuQ
+id: footermenuwork
+theme: bot_custom
+region: footer_two
+weight: -7
+provider: null
+plugin: 'menu_block:footer-menu---work'
+settings:
+  id: 'menu_block:footer-menu---work'
+  label: 'Footer Menu - Work'
+  provider: menu_block
+  label_display: '0'
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand: false
+  parent: 'footer-menu---work:'
+  suggestion: footer_menu___work
+visibility: {  }

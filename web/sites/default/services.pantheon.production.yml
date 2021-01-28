@@ -1,0 +1,22 @@
+#
+# Rename this file to 'services.pantheon.preproduction.yml' and
+# modify to suit.  It will then be loaded by settings.pantheon.php
+# on any dev or multidev environment (not on 'test' or 'live').
+#
+# If you would like to define any services or service parameters
+# that apply only to production environments ('test' and 'live'),
+# you may do so in a 'services.pantheon.production.yml' file.
+#
+# See 'default.services.yml' for information on useful settings to
+# put here.
+#
+parameters:
+  session.storage.options:
+    gc_probability: 1
+    gc_divisor: 100
+    gc_maxlifetime: 200000
+    cookie_lifetime: 0
+    cookie_domain_bc_mode: true
+  twig.config:
+    debug: false
+

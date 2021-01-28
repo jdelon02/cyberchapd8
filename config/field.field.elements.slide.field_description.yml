@@ -1,0 +1,23 @@
+uuid: c5907e92-84ac-4e19-8f2c-47660271ded2
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.slide
+    - field.storage.elements.field_description
+  module:
+    - text
+_core:
+  default_config_hash: '-NQqKq-G4uIV_o9k07V3p6RHaqJcRnEaqSg4kFhysmE'
+id: elements.slide.field_description
+field_name: field_description
+entity_type: elements
+bundle: slide
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

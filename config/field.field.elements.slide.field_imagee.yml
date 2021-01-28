@@ -1,0 +1,23 @@
+uuid: ccd87abe-ffea-4a10-b62a-d6f7d77781a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.slide
+    - field.storage.elements.field_imagee
+_core:
+  default_config_hash: flDKmg0r7K_LyxepqnWwdgnPm68VaKR1N1PE7kp4RQI
+id: elements.slide.field_imagee
+field_name: field_imagee
+entity_type: elements
+bundle: slide
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings: {  }
+field_type: entity_reference

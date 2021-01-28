@@ -1,0 +1,20 @@
+uuid: 2716257a-e34f-4df3-be52-2fe71ab0e251
+langcode: en
+status: false
+dependencies:
+  theme:
+    - bot_custom
+_core:
+  default_config_hash: Z0-CVm3fAfpDXCsb4TngAmjBFzl0xVYWfkMBuNTNxVw
+id: bot_custom_page_title
+theme: bot_custom
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

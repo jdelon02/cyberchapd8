@@ -1,0 +1,31 @@
+uuid: 17d13f51-b02e-419f-8957-c14903ed3a40
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.callout
+    - field.storage.components.field_layout_width
+    - taxonomy.vocabulary.layout_width
+_core:
+  default_config_hash: 1nUHCetN0w6v_FZ4fggrBkbJYv9D5sKUVyK6j-geWNA
+id: components.callout.field_layout_width
+field_name: field_layout_width
+entity_type: components
+bundle: callout
+label: 'Layout Width'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      layout_width: layout_width
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

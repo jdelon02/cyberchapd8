@@ -1,0 +1,23 @@
+uuid: e6b52c9e-2bf6-4984-9d41-3473114c7696
+langcode: und
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: hPWAelNDlHSEWW6Ted4yFHQErMcm3BmB6TsiIAXQJAA
+id: paragraph.field_times
+field_name: field_times
+entity_type: paragraph
+type: string
+settings:
+  max_length: 50
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

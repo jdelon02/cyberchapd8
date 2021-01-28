@@ -1,0 +1,21 @@
+uuid: b0598204-3da9-4725-9ca9-7180708c08fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: X3TpqfI2kTi-mgx13U9-pzBicL4OlL4oF7xXcA_ia9U
+id: components.field_testimonial
+field_name: field_testimonial
+entity_type: components
+type: entity_reference
+settings:
+  target_type: elements
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

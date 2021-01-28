@@ -4,13 +4,22 @@ module:
   adminimal_admin_toolbar: 0
   allowed_formats: 0
   automated_cron: 0
+  backoffice_thinking_alert_bar: 0
+  backoffice_thinking_artcl_pers_res_ct: 0
   backoffice_thinking_basic_page_and_paragraphs: 0
+  backoffice_thinking_callout_component_and_elements: 0
+  backoffice_thinking_def_tax: 0
   backoffice_thinking_entity_enabling: 0
+  backoffice_thinking_events: 0
   backoffice_thinking_initial_setup: 0
   backoffice_thinking_link_cards_comp_and_elmnts: 0
   backoffice_thinking_responsive_image_and_related: 0
   backoffice_thinking_simple_title_body_comp: 0
+  backoffice_thinking_slick_setup: 0
+  backoffice_thinking_slideshow_comp_and_elem: 0
+  backoffice_thinking_testimonials_comp_and_elmnts: 0
   backoffice_thinking_theme_specific: 0
+  backoffice_thinking_views_block_component: 0
   better_exposed_filters: 0
   better_normalizers: 0
   big_pipe: 0
@@ -20,6 +29,8 @@ module:
   block_class: 0
   block_content: 0
   bootstrap_layouts: 0
+  bot_landing_view_mode: 0
+  bot_opening_hours: 0
   breakpoint: 0
   button_link: 0
   captcha: 0
@@ -38,6 +49,7 @@ module:
   crop: 0
   ctools: 0
   datetime: 0
+  datetime_range: 0
   dblog: 0
   default_content: 0
   default_content_deploy: 0
@@ -53,6 +65,8 @@ module:
   entity_reference_display: 0
   entity_reference_revisions: 0
   entity_usage: 0
+  features: 0
+  features_ui: 0
   field: 0
   field_group: 0
   field_layout: 0
@@ -103,6 +117,7 @@ module:
   taxonomy: 0
   telephone: 0
   text: 0
+  time_field: 0
   token: 0
   token_filter: 0
   toolbar: 0
@@ -127,6 +142,8 @@ theme:
   seven: 0
   adminimal_theme: 0
   adminimal_bot: 0
+  bootstrap: 0
+  bot_custom: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

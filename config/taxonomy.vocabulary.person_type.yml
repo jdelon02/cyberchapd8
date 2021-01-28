@@ -1,0 +1,10 @@
+uuid: 0b09d515-a626-4ebc-9ba0-e26cea4ca8b5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: oFX4FB3o7qJttQCf8w1zXNUOFT0_fPvyD8joFD-VaLI
+name: 'Person Type'
+vid: person_type
+description: ''
+weight: 0

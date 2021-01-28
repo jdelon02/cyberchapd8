@@ -1,0 +1,36 @@
+uuid: 5a36de45-b75f-40e9-9b04-6d3d7829b0c4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8f5007af-d603-479a-9932-659781554906'
+  module:
+    - block_content
+    - context
+  theme:
+    - bot_custom
+id: footerlogo
+theme: bot_custom
+region: footer_one
+weight: 0
+provider: null
+plugin: 'block_content:8f5007af-d603-479a-9932-659781554906'
+settings:
+  id: 'block_content:8f5007af-d603-479a-9932-659781554906'
+  label: 'Footer Logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path_exclusion:
+    id: request_path_exclusion
+    pages: ''
+    negate: null
+    context_mapping: {  }
+  view_inclusion:
+    id: view_inclusion
+    negate: null
+    view_inclusion: {  }
+    context_mapping: {  }

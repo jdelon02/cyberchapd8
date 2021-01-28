@@ -1,0 +1,26 @@
+uuid: 624d70d3-34e2-415a-8145-e86ebfbc90d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.alert_bar_message
+  module:
+    - views
+  theme:
+    - bot_custom
+_core:
+  default_config_hash: c87ev6GWXG8mggCUR5W-jT42xQYYrBlVEfJ6CUe9moE
+id: views_block__alert_bar_message_alert_message_block
+theme: bot_custom
+region: navigation
+weight: -10
+provider: null
+plugin: 'views_block:alert_bar_message-alert_message_block'
+settings:
+  id: 'views_block:alert_bar_message-alert_message_block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

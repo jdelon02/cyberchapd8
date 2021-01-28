@@ -1,0 +1,29 @@
+uuid: 1ea11c4b-b6fb-4280-963e-82b0c5f2b280
+langcode: en
+status: true
+dependencies:
+  module:
+    - bot_opening_hours
+    - options
+_core:
+  default_config_hash: MuBgn3c1XaW4f9j0Fvh0clDYyYmL3nEyS7fPMs06NAE
+id: bot_opening_hours_exc.field_status
+field_name: field_status
+entity_type: bot_opening_hours_exc
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: open
+      label: Open
+    -
+      value: closed
+      label: Closed
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: bfb70b69-a41b-43fe-b322-17d1818f7a32
+langcode: en
+status: true
+dependencies:
+  module:
+    - backoffice_thinking_alert_bar
+_core:
+  default_config_hash: soIi3S1TgnLJWQUl67Xmlyz38oOjTEiSlz8AQvmCgy8
+id: alert_bar_message.field_currently_active
+field_name: field_currently_active
+entity_type: alert_bar_message
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

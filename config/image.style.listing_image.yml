@@ -1,0 +1,17 @@
+uuid: 6511973a-6157-44f5-b02c-f258eb0d57be
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xYGVsLUfoj28OsVZ1ikBCKLjweRwZOmXPfYRtSRVatI
+name: listing_image
+label: 'Listing Image'
+effects:
+  6c46d9b8-04d1-4e72-97bd-ac621546c045:
+    uuid: 6c46d9b8-04d1-4e72-97bd-ac621546c045
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 576
+      anchor: center-center

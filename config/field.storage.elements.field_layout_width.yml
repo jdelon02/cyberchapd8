@@ -1,0 +1,22 @@
+uuid: 239ff274-6152-4bbe-b4fe-2637be1f07d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - taxonomy
+_core:
+  default_config_hash: jm6qyEJP-4hBDYumQ1xNzX7iDNdVXHFtQtnOT0nQemg
+id: elements.field_layout_width
+field_name: field_layout_width
+entity_type: elements
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 53b91e80-3023-4a18-8f7a-08220f5612cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_day
+    - paragraphs.paragraphs_type.header_hours
+  module:
+    - options
+_core:
+  default_config_hash: Z2ZDYxfAhEv4d_yOsTnj8lKeHFML_qvdMkpjs1inaZU
+id: paragraph.header_hours.field_day
+field_name: field_day
+entity_type: paragraph
+bundle: header_hours
+label: Day
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

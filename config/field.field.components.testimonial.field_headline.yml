@@ -1,0 +1,21 @@
+uuid: de693779-764a-4f7e-9a62-c5bbf74401c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.testimonial
+    - field.storage.components.field_headline
+  module:
+    - text
+id: components.testimonial.field_headline
+field_name: field_headline
+entity_type: components
+bundle: testimonial
+label: Headline/Intro
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

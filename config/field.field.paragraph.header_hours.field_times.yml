@@ -1,0 +1,23 @@
+uuid: 6da4f142-b61d-4243-af0a-f870bcfe90b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_times
+    - paragraphs.paragraphs_type.header_hours
+_core:
+  default_config_hash: L-30egeUnc1hHVBCuEu2smK8efjjCQ-8xx6WxpsccYU
+id: paragraph.header_hours.field_times
+field_name: field_times
+entity_type: paragraph
+bundle: header_hours
+label: Times
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '10:00am to 5:00pm'
+default_value_callback: ''
+settings: {  }
+field_type: string

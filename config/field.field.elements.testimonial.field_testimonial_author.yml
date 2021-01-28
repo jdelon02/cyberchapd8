@@ -1,0 +1,23 @@
+uuid: 81fc4750-f528-4dba-afa7-0f9920108e8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.testimonial
+    - field.storage.elements.field_testimonial_author
+  module:
+    - text
+_core:
+  default_config_hash: ZeP8F8gyls16-4IT_4CZQMG9po58vobu1R6Zp6UBnRA
+id: elements.testimonial.field_testimonial_author
+field_name: field_testimonial_author
+entity_type: elements
+bundle: testimonial
+label: 'Testimonial Author'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

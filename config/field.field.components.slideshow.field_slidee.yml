@@ -1,0 +1,30 @@
+uuid: ba616ebb-0cd1-4d74-ab7c-eae526fbf7a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.components.slideshow
+    - eck.eck_type.elements.slide
+    - field.storage.components.field_slidee
+_core:
+  default_config_hash: SN2n-dfBVJ2GkXtlpJZzV6APGjOZKqA-B64ka68AVYk
+id: components.slideshow.field_slidee
+field_name: field_slidee
+entity_type: components
+bundle: slideshow
+label: Slide
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:elements'
+  handler_settings:
+    target_bundles:
+      slide: slide
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

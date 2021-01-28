@@ -1,0 +1,18 @@
+uuid: d42e815b-d88b-49eb-a434-e3053fcfcdc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - token_filter
+name: 'Custom HTML'
+format: custom_html
+weight: 0
+filters:
+  token_filter:
+    id: token_filter
+    provider: token_filter
+    status: false
+    weight: 0
+    settings:
+      replace_empty: '0'

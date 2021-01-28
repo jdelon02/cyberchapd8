@@ -1,0 +1,22 @@
+uuid: d65fa85b-cd3f-4c37-9ee3-c2e5682196e6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bot_custom
+_core:
+  default_config_hash: m-iUO_-uaz4mg9oNfSPMuogyF8EwJsjHhT6wXQty11o
+id: bot_custom_local_tasks
+theme: bot_custom
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: ac1c35cb-2313-4d24-88e2-6367bec9a440
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - text
+_core:
+  default_config_hash: yyCyOr5IuxTcUwrLPuxRWb_JTEgn7E46sgKtxRAMGRI
+id: elements.field_testimonial_author
+field_name: field_testimonial_author
+entity_type: elements
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

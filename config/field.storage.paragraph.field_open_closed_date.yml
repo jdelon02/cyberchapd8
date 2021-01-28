@@ -1,0 +1,22 @@
+uuid: 7dfedb8b-21f5-48e5-9650-f1f32234949c
+langcode: und
+status: true
+dependencies:
+  module:
+    - datetime
+    - paragraphs
+_core:
+  default_config_hash: vMACMkOL2i_xyusxa1G-eu0vmjgKHr7P5eAmpISeuXY
+id: paragraph.field_open_closed_date
+field_name: field_open_closed_date
+entity_type: paragraph
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

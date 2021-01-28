@@ -1,0 +1,11 @@
+uuid: 13ee8866-c784-45f4-80e1-7e7d9305bd82
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.components
+_core:
+  default_config_hash: fklbSxqOBeEfr7YZLB9mUBevW_5J51WDVzQj950xNE8
+type: slideshow
+name: Slideshow
+description: 'Slideshow, image and text description'

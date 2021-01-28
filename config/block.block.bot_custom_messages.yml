@@ -1,0 +1,22 @@
+uuid: 5039e924-3eaf-494b-a92a-dd7b3a778439
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bot_custom
+_core:
+  default_config_hash: YMbQlevxTuam68-rZLOGmVa6ItiZdnpqNE9OKc0v2DY
+id: bot_custom_messages
+theme: bot_custom
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

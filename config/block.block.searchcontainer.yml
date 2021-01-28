@@ -1,0 +1,40 @@
+uuid: ba326eb5-edf4-4a8c-80eb-d7cb0ea3e843
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dad8b881-a30b-461b-99ff-a665b925e163'
+  module:
+    - block_class
+    - block_content
+    - context
+  theme:
+    - bot_custom
+third_party_settings:
+  block_class:
+    classes: search-trigger
+id: searchcontainer
+theme: bot_custom
+region: navigation_collapsible
+weight: -8
+provider: null
+plugin: 'block_content:dad8b881-a30b-461b-99ff-a665b925e163'
+settings:
+  id: 'block_content:dad8b881-a30b-461b-99ff-a665b925e163'
+  label: 'Search Container'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path_exclusion:
+    id: request_path_exclusion
+    pages: ''
+    negate: null
+    context_mapping: {  }
+  view_inclusion:
+    id: view_inclusion
+    negate: null
+    view_inclusion: {  }
+    context_mapping: {  }

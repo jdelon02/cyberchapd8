@@ -1,0 +1,12 @@
+uuid: 0a656ac8-2b20-405d-b7d8-9a7fe44b4ccd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BvaZm938ruBU_lDxkNS8TFq9-udDWRZps2pv2zy7TZ0
+id: header_hours
+label: 'Header hours'
+icon_uuid: null
+icon_default: null
+description: 'Migrated from field_collection field_header_hours'
+behavior_plugins: {  }

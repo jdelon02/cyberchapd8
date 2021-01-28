@@ -1,0 +1,24 @@
+uuid: dbcdc6ee-48fa-4be9-a1d9-2eb1e6cd6ce8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ck_jnCKA5SkHNySbzUN0cEfDrVwwvz5qBDN0m_SGBLY
+id: events
+label: Events
+type: 'canonical_entities:node'
+pattern: 'events/[node:title]'
+selection_criteria:
+  4e6dd33e-590e-465e-8fe2-e08a0416079f:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 4e6dd33e-590e-465e-8fe2-e08a0416079f
+selection_logic: and
+weight: -5
+relationships: {  }

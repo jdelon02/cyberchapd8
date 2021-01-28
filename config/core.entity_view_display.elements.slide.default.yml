@@ -1,0 +1,47 @@
+uuid: 0a7ceb3d-5bc2-4e14-8e75-ffaeed9cd008
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.elements.slide
+    - field.field.elements.slide.field_description
+    - field.field.elements.slide.field_imagee
+  module:
+    - ds
+    - text
+_core:
+  default_config_hash: KB82jPEt19gXlnvFjfi5Vg9PjcMKxYzyASUkCg_h-x8
+id: elements.slide.default
+targetEntityType: elements
+bundle: slide
+mode: default
+content:
+  field_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_imagee:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: widescreen_16_9
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  changed: true
+  created: true
+  title: true
+  uid: true

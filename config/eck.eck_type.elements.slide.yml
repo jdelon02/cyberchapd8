@@ -1,0 +1,11 @@
+uuid: 44655e96-cfee-4744-8d74-79bd80f1393c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.elements
+_core:
+  default_config_hash: nPxuql6Z0bZOAt38_r73hbiGWuXN1JWNdBlwqQxTBnY
+type: slide
+name: Slide
+description: ''

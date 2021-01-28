@@ -1,0 +1,53 @@
+#
+# If you would like to define any services or service parameters
+# that apply only to production environments ('test' and 'live'),
+# you may do so in a 'services.pantheon.production.yml' file.
+#
+# See 'default.services.yml' for information on useful settings to
+# put here.
+#
+parameters:
+  session.storage.options:
+    gc_probability: 1
+    gc_divisor: 100
+    gc_maxlifetime: 200000
+    cookie_lifetime: 0
+    cookie_domain_bc_mode: true
+  twig.config:
+    debug: false
+    auto_reload: null
+    cache: true
+  renderer.config:
+    required_cache_contexts: ['languages:language_interface', 'theme', 'user.permissions']
+    auto_placeholder_conditions:
+      max-age: 0
+      contexts: ['session', 'user']
+      tags: []
+  http.response.debug_cacheability_headers: false
+  factory.keyvalue:
+    {}
+  factory.keyvalue.expirable:
+    {}
+  filter_protocols:
+    - http
+    - https
+    - ftp
+    - news
+    - nntp
+    - tel
+    - telnet
+    - mailto
+    - irc
+    - ssh
+    - sftp
+    - webcal
+    - rtsp
+
+  cors.config:
+    enabled: false
+    allowedHeaders: []
+    allowedMethods: []
+    allowedOrigins: ['*']
+    exposedHeaders: false
+    maxAge: false
+    supportsCredentials: false

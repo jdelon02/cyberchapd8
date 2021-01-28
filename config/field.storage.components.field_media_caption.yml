@@ -1,0 +1,21 @@
+uuid: 8d33e6c6-f8f3-4f9a-a767-8b3c53565399
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - text
+_core:
+  default_config_hash: zghV8AqAC7Y6PojcguWxCQy6yt4lj5XJfbM09aJEY_s
+id: components.field_media_caption
+field_name: field_media_caption
+entity_type: components
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

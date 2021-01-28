@@ -1,0 +1,12 @@
+uuid: add95dea-15bc-4d65-bd10-12c21b169d0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: n5q7DEbQ_BdJcvmldEaV6MXLU3gCPHl8F4BpdR7Z1Fg
+id: node.people_listing
+label: 'People Listing'
+targetEntityType: node
+cache: true
