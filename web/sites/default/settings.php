@@ -37,14 +37,6 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT'])) {
   $config['system.file']['path']['temporary'] = $_SERVER['HOME'] .'/tmp';
 }
 
-
-
-# For Migrations, connect to a D7 database.
-$migrate_settings = __DIR__ . "/settings.migrate-on-pantheon.php";
-if (file_exists($migrate_settings)) {
-    include $migrate_settings;
-}
-
 // Require HTTPS across all Pantheon environments
 // Check if Drupal or WordPress is running via command line
 if (isset($_SERVER['PANTHEON_ENVIRONMENT']) && ($_SERVER['HTTPS'] === 'OFF') && (php_sapi_name() != "cli")) {
@@ -114,4 +106,4 @@ if (file_exists($local_settings)) {
 $settings['install_profile'] = 'standard';
 
 // Google Analytics
-$config['google_analytics.settings']['account'] = 'UA-19582139-1';
+$config['google_analytics.settings']['account'] = '';
