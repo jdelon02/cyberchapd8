@@ -106,7 +106,6 @@ class SmartDateRecurrenceFormatter extends SmartDateDefaultFormatter {
     // Look for a defined format and use it if specified.
     $format_label = $this->getSetting('format');
     $add_classes = $this->getSetting('add_classes');
-    $renderer = \Drupal::service('renderer');
     if ($format_label) {
       $format = SmartDateFormat::load($format_label);
       $settings = $format->getOptions();
@@ -132,6 +131,9 @@ class SmartDateRecurrenceFormatter extends SmartDateDefaultFormatter {
       if (empty($item->rrule)) {
         // No rule so include the item directly.
         $elements[$delta] = static::formatSmartDate($item->value, $item->end_value, $settings, $timezone);
+        if ($add_classes) {
+          $this->addRangeClasses($elements[$delta]);
+        }
       }
       else {
         // Uses a rule, so use a placeholder instead.
@@ -217,7 +219,10 @@ class SmartDateRecurrenceFormatter extends SmartDateDefaultFormatter {
           }
         }
         foreach ($items as $item) {
-          $rrule_output['#past_display']['#items'][] = $renderer->render($item);
+          $rrule_output['#past_display']['#items'][] = [
+            '#children' => $item,
+            '#theme' => 'container',
+          ];
         }
       }
       $upcoming_display = $this->getSetting('upcoming_display');
@@ -241,9 +246,11 @@ class SmartDateRecurrenceFormatter extends SmartDateDefaultFormatter {
           }
         }
         foreach ($items as $item) {
-          $rrule_output['#upcoming_display']['#items'][] = $renderer->render($item);
+          $rrule_output['#upcoming_display']['#items'][] = [
+            '#children' => $item,
+            '#theme' => 'container',
+          ];
         }
-        // $rrule_output['#upcoming_display']['#items'][] = $renderer->render($output);
         if ($this->getSetting('show_next')) {
           $rrule_output['#next_display'] = array_shift($rrule_output['#upcoming_display']['#items']);
         }

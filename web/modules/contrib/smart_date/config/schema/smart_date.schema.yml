@@ -59,6 +59,11 @@ field.formatter.settings.smartdate_default:
       type: string
       label: 'Format Type'
       translation context: 'Smart date display'
+    add_classes:
+      type: integer
+      label: 'Add Classes'
+      translation context: 'Add classed spans around the time and date values.'
+
 field.formatter.settings.smartdate_plain:
   type: field.formatter.settings.datetime_plain
   label: 'Smart date plain display format settings'

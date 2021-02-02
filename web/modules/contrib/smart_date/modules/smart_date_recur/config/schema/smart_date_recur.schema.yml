@@ -16,11 +16,11 @@ field.formatter.settings.smartdate_recurring:
       label: 'Force chronological'
       translation context: 'Smart date display'
     past_display:
-      type: int
+      type: integer
       label: 'Recent Instances'
       translation context: 'Smart date display'
     upcoming_display:
-      type: int
+      type: integer
       label: 'Upcoming Instances'
       translation context: 'Smart date display'
     show_next:
